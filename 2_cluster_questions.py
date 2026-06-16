@@ -37,7 +37,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # SETTINGS  -  the knobs you might want to turn
 # ----------------------------------------------------------------------
 INPUT_CSV   = None    # leave None to use the SUBJECT below; or hard-code a filename.
-SUBJECT     = "reading"  # "math", "reading", or "science" -- must match step 1.
+SUBJECT     = "science"  # "math", "reading", or "science" -- must match step 1.
 MODEL_NAME  = "all-MiniLM-L6-v2"       # fast, solid default. Swap to
                                        # "all-mpnet-base-v2" for higher quality
                                        # at ~3x the time if clusters look muddy.

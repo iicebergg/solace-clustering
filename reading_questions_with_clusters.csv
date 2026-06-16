@@ -1,0 +1,542 @@
+source_file,test_id,qid,type,cluster,tsne_x,tsne_y,clean_text
+reading-endofcourse-2015.js,reading_endofcourse_2015,1.0,multiple-choice,14,-1.6656352,-3.6195164,"In paragraph 1, the words ""rumbled,"" ""buzzed,"" and ""exploded"" evoke images of-"
+reading-endofcourse-2015.js,reading_endofcourse_2015,2.0,multiple-choice,9,-12.703703,2.2408054,The details in paragraph 2 support the idea that Benjamin is -
+reading-endofcourse-2015.js,reading_endofcourse_2015,3.0,multiple-choice,14,-1.4550571,-5.8438306,Read this sentence from paragraph 4. He swung wide around an anonymous heap of metal being swallowed by a greedy mound of blackberry brambles and came to an abrupt halt. The sentence contains an example of--
+reading-endofcourse-2015.js,reading_endofcourse_2015,4.0,multiple-select,9,-13.277407,0.45707494,"In this excerpt from paragraph 7, select the words that best reveal Benjamin's attempt to gain the artist's trust. Craning his head to the side to get another peek at it, he answered politely enough, ""My name's Benjamin, and I live up on Hendricks Avenue,"" waving his hand vaguely at the steep hill behind him. ... Then Benjamin blushed and apologized."
+reading-endofcourse-2015.js,reading_endofcourse_2015,5.0,multiple-choice,13,-5.5215483,8.11497,Which situation in the selection is an example of irony?
+reading-endofcourse-2015.js,reading_endofcourse_2015,6.0,multiple-choice,16,1.4013374,-12.252879,"According to paragraph 3, the main difference between Super Stadiums and regular stadiums is that Super Stadiums -"
+reading-endofcourse-2015.js,reading_endofcourse_2015,7.0,multiple-choice,13,1.6038586,-11.873426,"In paragraph 6, which word best describes the author's attitude about Super Stadium projects?"
+reading-endofcourse-2015.js,reading_endofcourse_2015,8.0,multiple-choice,13,-9.28998,-7.1539545,"According to paragraph 7, in the future, sports fans will-"
+reading-endofcourse-2015.js,reading_endofcourse_2015,9.0,multiple-choice,13,12.597528,21.359737,Which sentence from this selection would be most difficult to verify as a fact?
+reading-endofcourse-2015.js,reading_endofcourse_2015,10.0,multiple-choice,12,21.912973,10.514969,"Based on the selection, the reader may best infer that new building materials -"
+reading-endofcourse-2015.js,reading_endofcourse_2015,11.0,multiple-choice,15,23.948421,5.8982577,Which information about the selection would be best to include in a report about the popularity of spectator sports?
+reading-endofcourse-2015.js,reading_endofcourse_2015,12.0,multiple-choice,12,25.273659,16.388853,The purpose of this selection is to--
+reading-endofcourse-2015.js,reading_endofcourse_2015,13.0,multiple-choice,4,5.214123,6.3904386,The purpose of the first paragraph is to -
+reading-endofcourse-2015.js,reading_endofcourse_2015,14.0,multiple-choice,18,-33.29607,14.344439,Which question is answered in paragraph 3?
+reading-endofcourse-2015.js,reading_endofcourse_2015,15.0,multiple-choice,0,-7.930452,-2.4317992,Paragraph 4 suggests that Osamu Tezuka -
+reading-endofcourse-2015.js,reading_endofcourse_2015,16.0,multiple-choice,14,-7.2213697,-1.9560456,"Read this sentence from paragraph 5. While Tezuka's manga may stand on the same library shelves as American superhero comic books, Tezuka's manga are to most traditional American comic books what Shakespeare's plays are to soap operas on American television: a similar art form, but with much richer content. The purpose of the analogy in this sentence is to-"
+reading-endofcourse-2015.js,reading_endofcourse_2015,17.0,multiple-choice,12,22.659513,15.2600765,The author mainly develops the topic of this selection by -
+reading-endofcourse-2015.js,reading_endofcourse_2015,18.0,multiple-choice,12,23.199333,13.362412,Which information from the selection supports the thesis that manga has become increasingly popular over time?
+reading-endofcourse-2015.js,reading_endofcourse_2015,19.0,multiple-choice,4,3.2805994,4.7008576,"In paragraph 2, the author uses dialogue to -"
+reading-endofcourse-2015.js,reading_endofcourse_2015,20.0,multiple-choice,7,-22.010792,-15.663584,"Read this sentence from paragraph 3. I watched her play with the top button of her coat and thought about the man I was about to meet, my father, whose face I knew only from a small black-and-white photograph. This sentence conveys Su-Jen's feelings of -"
+reading-endofcourse-2015.js,reading_endofcourse_2015,21.0,multiple-choice,13,3.8259375,-0.16881105,"In paragraph 3, pensive means -"
+reading-endofcourse-2015.js,reading_endofcourse_2015,22.0,multiple-choice,14,-1.170421,-6.153416,"Read this sentence from paragraph 5. He stopped as he drew near, huffing out of breath. This sentence contains an example of--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,23.0,multiple-choice,7,-22.579512,-16.006685,The character of Su-Jen is mainly revealed through her--
+reading-endofcourse-2015.js,reading_endofcourse_2015,24.0,multiple-choice,7,-22.762756,-16.483397,"Based on the selection, Su-Jen's father may best be described as--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,25.0,multiple-choice,12,23.155758,14.522874,Later chapters of this selection would most likely describe--
+reading-endofcourse-2015.js,reading_endofcourse_2015,26.0,multiple-choice,2,17.261824,-13.752487,"Which word carries a negative connotation in this sentence? Patrick's mother is assuming that when her son refrains from fraternizing so much, he will become more accomplished."
+reading-endofcourse-2015.js,reading_endofcourse_2015,27.0,multiple-choice,13,9.336051,-9.570255,"Read this sentence. Ryan was meticulous with his writing assignments, so the papers he turned in for English class received the highest grades for grammar because they never contained mistakes. As used in this sentence, the word meticulous means--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,28.0,multiple-choice,15,-3.4986315,20.111477,Which fact from a magazine article would be best to include in a report about the literary career of William Faulkner?
+reading-endofcourse-2015.js,reading_endofcourse_2015,29.0,multiple-choice,14,-8.292979,-5.469091,Read these sentences. The days following tryouts for the wrestling team were a roller coaster ride for Ian. He had done his best at the tryouts and hoped the coaches would want him to wrestle on the varsity team. He worried over it for hours. The purpose of the figurative language in these sentences is to suggest that Ian--
+reading-endofcourse-2015.js,reading_endofcourse_2015,30.0,multiple-choice,0,16.244831,-23.94882,The information in paragraph 2 supports the idea that Antarctic fish -
+reading-endofcourse-2015.js,reading_endofcourse_2015,31.0,multiple-choice,0,16.656008,-23.163464,"Read these sentences from paragraph 3. The threadfin pithead, for instance, lives at depths of around 2,000 feet in the cold dark of the Antarctic seas. It is difficult to imagine a more adverse environment. These sentences suggest that the author--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,32.0,multiple-choice,0,16.433697,-24.704327,Read this sentence from paragraph 3. The slender fish spends its days swimming through the honeycombed channels of the icepack hunting krillsmall crustaceans-for its sustenance. The word sustenance means--
+reading-endofcourse-2015.js,reading_endofcourse_2015,33.0,multiple-choice,6,5.2860837,16.325563,Which statement best expresses the main idea of paragraph 3?
+reading-endofcourse-2015.js,reading_endofcourse_2015,34.0,multiple-choice,13,4.23834,-2.1952844,"In paragraph 6, the word salutary means--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,35.0,multiple-choice,4,9.550301,10.704434,The organizational structure of paragraph 6 is best described as -
+reading-endofcourse-2015.js,reading_endofcourse_2015,36.0,multiple-choice,0,18.961765,-28.089893,Which section would most likely describe future uses of the protein found in fish that live in below-freezing water?
+reading-endofcourse-2015.js,reading_endofcourse_2015,37.0,multiple-choice,12,20.982506,10.981841,How can the reader best tell that this is an expository selection?
+reading-endofcourse-2015.js,reading_endofcourse_2015,38.0,multiple-choice,12,22.573673,16.17309,What is the author's most likely purpose for writing this selection?
+reading-endofcourse-2015.js,reading_endofcourse_2015,39.0,multiple-choice,3,9.784148,-7.3216114,"That advice helped keep my situation in perspective; I was polishing my craft, getting experience, and establishing myself as a talented writer. In this sentence from paragraph 1, the word polishing suggests--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,40.0,multiple-choice,6,6.499115,18.938246,Which set of statements provides the best summary of paragraphs 2-5?
+reading-endofcourse-2015.js,reading_endofcourse_2015,41.0,multiple-choice,16,2.6555321,-11.337709,"Read this sentence from paragraph 5. The ticket was inscribed with the logo for KidsPop, the symphony orchestra's overt attempt to entice children away from video games and into the world of classical music. What does the word overt mean?"
+reading-endofcourse-2015.js,reading_endofcourse_2015,42.0,multiple-choice,2,10.087702,-9.120933,A quick scan of Saint-Saën's biography provided little assistance--the information was nearly incomprehensible to a beginner such as myself. The word incomprehensible from paragraph 6 contains a root word that means to--
+reading-endofcourse-2015.js,reading_endofcourse_2015,43.0,multiple-choice,14,-2.0069616,-7.1437593,"Read this sentence from paragraph 10. Now came a contrast in tempo--the lumbering sluggishness of giant tortoises, painfully trudging along, step by laborious step. The author uses sensory language in this sentence in order to--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,44.0,multiple-choice,9,-15.741945,4.8485103,The fanfare and flourishes of the finale announced a farewell to our carnival. Which literary device does Jake use in this sentence from paragraph 13?
+reading-endofcourse-2015.js,reading_endofcourse_2015,45.0,multiple-choice,9,-17.343878,-21.130796,Jake's dismay over having to review a KidsPop concert affects the selection by--
+reading-endofcourse-2015.js,reading_endofcourse_2015,46.0,multiple-choice,12,-16.381613,-20.644217,Jake uses extensive animal imagery in the selection to suggest the music's--
+reading-endofcourse-2015.js,reading_endofcourse_2015,47.0,multiple-choice,12,-17.361444,-20.511995,Which detail from the selection supports the concept that Jake is eager to do a good job reviewing the concert?
+reading-endofcourse-2015.js,reading_endofcourse_2015,48.0,multiple-choice,12,-17.041792,-20.075333,The selection is told from Jakes point of view in order to emphasize his--
+reading-endofcourse-2015.js,reading_endofcourse_2015,49.0,multiple-choice,12,23.390686,17.124523,The author includes the illustration at the top of the selection to--
+reading-endofcourse-2015.js,reading_endofcourse_2015,50.0,multiple-choice,4,5.5688634,6.2021947,The purpose of paragraph 2 is to--
+reading-endofcourse-2015.js,reading_endofcourse_2015,51.0,multiple-choice,4,3.3322816,6.803048,The author uses the source in paragraph 5 to--
+reading-endofcourse-2015.js,reading_endofcourse_2015,52.0,multiple-choice,3,29.06101,-5.996046,The reader may conclude that computerized contact lenses will be most useful to people who--
+reading-endofcourse-2015.js,reading_endofcourse_2015,53.0,multiple-choice,3,28.985672,-5.9791045,"Paragraph 8 suggests that in the future, computers will be embedded into contact lenses that--"
+reading-endofcourse-2015.js,reading_endofcourse_2015,54.0,multiple-choice,12,25.274284,16.388683,The purpose of this selection is to--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,1.0,multiple-choice,13,-0.009285515,-0.7101565,"In paragraph 1, the expression ""rhythm of their lives"" suggests that people's lives were filled with--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,2.0,multiple-choice,11,9.571873,3.021071,"Based on paragraph 4, the reader can determine that the sundial was the first timekeeping device to--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,3.0,multiple-choice,4,9.023337,3.4573092,The main idea of paragraph 5 focuses on the concept that water clocks were--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,4.0,multiple-choice,3,10.677191,2.4401321,This selection supports all these statements about timekeeping EXCEPT--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,5.0,multiple-choice,12,20.833664,17.552036,"Based on information in the selection, which statement represents the author's opinion?"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,6.0,multiple-choice,13,0.81605524,4.0797606,Which tone is conveyed in paragraph 1?
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,7.0,multiple-choice,7,-6.05386,-5.055625,"Read this sentence from paragraph 3. That facade had evaporated when Jack enlisted, and, Ruth admitted, she liked herself more now than she had in the past. The author's word choice in this sentence highlights the idea that--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,8.0,multiple-choice,4,-2.040228,7.9170666,Why does the author include the flashback in paragraph 9?
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,9.0,multiple-choice,12,24.121588,15.756685,The details in paragraph 13 contribute to the selection by--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,10.0,multiple-choice,7,-23.941809,-16.767786,"In this selection, Vera's character is best described as a--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,11.0,multiple-choice,4,6.959622,8.660822,The author organizes information in paragraph 1 using explanation most likely to--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,12.0,multiple-choice,8,20.0488,10.779141,The reader can tell this article is expository because it--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,13.0,multiple-choice,0,13.154533,-29.049273,How do scientists know that the canals were dry at times?
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,14.0,multiple-choice,14,1.9098951,-4.5461645,"Read this sentence from paragraph 5. There the salt hay, sawdust, and straw effaced the airborne tang of leather and glue from the nearby shoe factory and muted the call of the ragman. In this sentence, the word effaced means--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,15.0,multiple-choice,14,-6.187538,-0.012759257,"Read this sentence from paragraph 7. Then in fifth grade, Lydia saw a city map and realized her entire world was the smallest finger of Boston's broad hand. The figurative language in the sentence impacts readers by helping them--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,16.0,multiple-choice,7,-18.588966,-0.53756434,"Based on this story, the reader may best understand that Lydia--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,17.0,multiple-choice,14,-7.0408344,0.20612876,"The author's use of a simile in paragraph 18 of ""Stone Age Skating Experience"" suggests that Greta--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,18.0,multiple-choice,13,12.42503,22.705647,"Which sentence from ""History on Ice"" is least supported by details and would benefit from clarification?"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,19.0,multiple-choice,12,24.706264,17.453068,Both selections express the idea that--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,20.0,multiple-choice,5,-20.66165,19.5813,The imagery in lines 7-11 of the poem helps the reader--
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,21.0,multiple-choice,2,13.263758,-2.0042195,"In line 21, the speaker uses the word ""lush"" when describing the patch of grass to--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,22.0,multiple-choice,5,-20.14675,22.073061,"In lines 29-33 of the poem, the poet's use of the rhetorical question suggests that the speaker--"
+reading-endofcourse-practice-2024.js,reading_endofcourse_practice_2024,23.0,multiple-choice,5,-19.74751,19.245815,The purpose of the imagery in the poem is most likely to —
+reading-grade3-2015.js,reading_grade3_2015,1.0,multiple-choice,1,-23.079615,8.145647,Another good title for this story would be--
+reading-grade3-2015.js,reading_grade3_2015,2.0,multiple-choice,7,-24.421278,-10.475942,Danielle keeps the cupcakes a secret by--
+reading-grade3-2015.js,reading_grade3_2015,3.0,multiple-choice,15,25.45832,0.82870406,Complete this flow chart with the most appropriate answer for the empty box.
+reading-grade3-2015.js,reading_grade3_2015,4.0,multiple-choice,7,-24.272749,-10.675443,Danielle is pleased with the surprise most likely because she--
+reading-grade3-2015.js,reading_grade3_2015,5.0,multiple-choice,9,-26.955215,-8.164306,What will Martin and Madison most likely do next?
+reading-grade3-2015.js,reading_grade3_2015,6.0,multiple-choice,1,-25.717678,-17.15628,Which of these do the characters have in common?
+reading-grade3-2015.js,reading_grade3_2015,7.0,multiple-choice,2,14.030819,-7.9913797,"What is the root word in ""discovered""?"
+reading-grade3-2015.js,reading_grade3_2015,8.0,multiple-choice,0,19.4664,-29.61067,Some people eat seaweed all by itself because they most likely--
+reading-grade3-2015.js,reading_grade3_2015,9.0,multiple-choice,0,19.3586,-29.18069,"Based on the article, seaweed makes ice cream and yogurt--"
+reading-grade3-2015.js,reading_grade3_2015,10.0,multiple-choice,18,-32.0629,12.717679,Which question is answered in the article?
+reading-grade3-2015.js,reading_grade3_2015,11.0,multiple-choice,8,16.71529,14.481797,The author wrote this article most likely to--
+reading-grade3-2015.js,reading_grade3_2015,12.0,multiple-choice,0,18.401566,-28.79121,"In an Internet search about oceans, which website would most likely have information about where red seaweed grows?"
+reading-grade3-2015.js,reading_grade3_2015,13.0,multiple-choice,3,-4.5475116,13.124186,"What makes the secret message appear in ""Lemony Letter""?"
+reading-grade3-2015.js,reading_grade3_2015,14.0,multiple-choice,3,-5.8207054,12.477614,"In ""Mirror Message"" when the steam in the bathroom is gone, the message will most likely--"
+reading-grade3-2015.js,reading_grade3_2015,15.0,multiple-choice,3,-5.5143867,12.278579,"In step 3 of ""Mirror Message,"" what does the word invisible mean?"
+reading-grade3-2015.js,reading_grade3_2015,16.0,multiple-choice,16,-4.4640884,13.245894,"""Lemony Letter"" and ""Mirror Message"" are alike because both--"
+reading-grade3-2015.js,reading_grade3_2015,17.0,multiple-choice,16,-6.817461,13.959734,"In ""Crazy Crayon,"" it is hard to see the message before painting over it because the message--"
+reading-grade3-2015.js,reading_grade3_2015,18.0,multiple-choice,17,13.827926,28.078512,One reason to read the flier is to--
+reading-grade3-2015.js,reading_grade3_2015,19.0,multiple-choice,17,14.251972,27.783318,The author puts numbers before some sentences in the flier to--
+reading-grade3-2015.js,reading_grade3_2015,20.0,multiple-choice,3,10.121591,-13.953092,"Read this sentence and dictionary entry. In the winter, grocery stores charge too much for strawberries. charge (chärj) v. 1. To give orders. 2. To set as a price. 3. To fill up completely. 4. To rush forward."
+reading-grade3-2015.js,reading_grade3_2015,21.0,multiple-select,2,17.71108,-3.7013628,Guide words: camera - cause Which two words would appear on the same page as these guide words?
+reading-grade3-2015.js,reading_grade3_2015,22.0,multiple-choice,1,-23.012337,7.0539303,The title tells readers that a character in the story will most likely--
+reading-grade3-2015.js,reading_grade3_2015,23.0,multiple-choice,4,0.035961103,9.39439,Paragraph 5 is important to the story because it--
+reading-grade3-2015.js,reading_grade3_2015,24.0,multiple-choice,9,-13.590594,-4.8845167,"After Evan and Mark find the map, they both feel--"
+reading-grade3-2015.js,reading_grade3_2015,25.0,multiple-choice,1,-25.419926,6.1372886,Where does this story begin and end?
+reading-grade3-2015.js,reading_grade3_2015,26.0,multiple-choice,1,-24.947645,3.1804693,"Based on the story, where does the map first lead the boys?"
+reading-grade3-2015.js,reading_grade3_2015,27.0,multiple-choice,18,-30.319117,10.730634,Which question is answered at the end of the story?
+reading-grade3-2015.js,reading_grade3_2015,28.0,drag-drop,2,18.948809,-4.3287053,Place these words in alphabetical order.
+reading-grade3-2015.js,reading_grade3_2015,29.0,multiple-choice,4,6.1986165,3.4478188,"Based on paragraph 4, the reader can tell that-"
+reading-grade3-2015.js,reading_grade3_2015,30.0,multiple-choice,0,-4.518784,-22.016468,Paragraph 6 explains that one way ostriches keep themselves safe is by--
+reading-grade3-2015.js,reading_grade3_2015,31.0,multiple-choice,15,18.478306,8.153359,What information can be learned by reading the chart at the end of the article?
+reading-grade3-2015.js,reading_grade3_2015,32.0,multiple-choice,16,-7.332377,-20.247272,"Based on the article, one way the male leader is like the females in the herd is that he helps--"
+reading-grade3-2015.js,reading_grade3_2015,33.0,multiple-choice,0,-4.63986,-22.558908,The feathers of an ostrich help the bird--
+reading-grade3-2015.js,reading_grade3_2015,34.0,multiple-choice,0,-4.789646,-21.246143,"Based on the article, what can the reader most likely tell about ostriches?"
+reading-grade3-2015.js,reading_grade3_2015,35.0,multiple-choice,5,-20.554996,18.40578,"After looking at the title, the reader knows that this poem is about--"
+reading-grade3-2015.js,reading_grade3_2015,36.0,multiple-choice,3,2.9990573,-6.1929145,What does pause mean in line 13?
+reading-grade3-2015.js,reading_grade3_2015,37.0,multiple-choice,16,15.462438,-0.9954725,"In lines 17-20, the speaker can best be described as--"
+reading-grade3-2015.js,reading_grade3_2015,38.0,multiple-choice,16,-11.602676,25.703182,Where is the first place the speaker looks for the shoe?
+reading-grade3-2015.js,reading_grade3_2015,39.0,multiple-choice,5,-24.473644,18.449095,"Based on the events in the poem, the shoe was most likely last worn--"
+reading-grade3-2015.js,reading_grade3_2015,40.0,multiple-choice,18,-25.063328,22.702942,Which question is answered in the poem?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,1.0,multiple-choice,8,17.808825,9.138783,The photograph in the article helps the reader understand —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,2.0,multiple-choice,0,22.663515,-22.796177,The cheetah's coat is most useful because it —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,3.0,multiple-choice,7,-24.641283,-8.47928,One reason Kelly finishes in third place is because she —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,4.0,multiple-choice,1,-25.84183,7.8689933,Who is telling this story?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,5.0,multiple-choice,1,-18.788536,8.485036,Which sentence best states the theme of the story?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,6.0,multiple-choice,6,4.495959,16.929361,Which sentence best states the main idea of paragraph 1?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,7.0,multiple-choice,6,2.196647,19.086363,Which heading best belongs above paragraph 2?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,8.0,multiple-choice,18,-32.506447,15.111288,Which question is answered in paragraph 2?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,9.0,multiple-choice,2,19.396648,-6.3180137,Which word is an antonym for joined as used in paragraph 4?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,10.0,multiple-choice,13,5.194497,-0.695043,What does defend mean in paragraph 4?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,11.0,multiple-choice,8,17.310347,14.816689,The author wrote this article most likely to —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,12.0,multiple-choice,5,-22.067688,20.597845,Which lines show the conflict in the poem?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,13.0,multiple-choice,5,-18.73189,20.72115,The resolution in the poem happens as soon as the speaker —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,14.0,multiple-choice,5,-16.727531,22.030062,Which word best describes the speaker throughout the poem?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,15.0,multiple-choice,18,-32.506447,15.111288,Which question is answered in paragraph 2?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,16.0,multiple-choice,4,4.7158456,12.872526,What is the main idea of paragraph 4?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,17.0,multiple-choice,16,12.302975,-22.473469,Read this sentence from paragraph 5. Whole groups of sea otters may be seen floating together. Which word is a homophone for seen ?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,18.0,multiple-choice,0,20.981388,-24.304531,"Based on the article, the ocean is a perfect home for the sea otter because the —"
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,19.0,multiple-choice,0,21.1404,-24.132753,"Based on the article, sea otters can swim well mainly because their —"
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,20.0,multiple-choice,0,21.989447,-24.769106,"Based on the article, a sea otter finds its favorite foods —"
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,21.0,multiple-choice,0,22.116274,-23.589388,One purpose of the sea otter's chest is to help the animal —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,22.0,multiple-choice,8,17.96176,12.801646,The author uses headings in the article most likely to —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,23.0,multiple-choice,0,20.78876,-25.04983,"Based on the article, what may happen if a sea otter rests far from seaweed?"
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,24.0,multiple-choice,5,-31.871058,-12.241045,Bonnie and Steve are proud in the beginning of the poem because they each —
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,25.0,multiple-choice,7,-31.892078,-12.074149,"Based on the poem, how does Bonnie first find out Steve is selling cherry juice?"
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,26.0,multiple-choice,18,-25.063328,22.702942,Which question is answered in the poem?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,27.0,multiple-choice,5,-22.551117,22.03018,Which line from the poem is where the reader understands how the problem is solved?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,28.0,multiple-choice,7,-30.665712,-12.077578,How is Bonnie different from Steve?
+reading-grade3-practice-2024.js,reading_endofcourse_practice_2024,29.0,multiple-choice,7,-30.707722,-11.797038,Bonnie and Steve end up sharing a stand because they —
+reading-grade4-2015.js,reading_grade4_2015,1.0,multiple-choice,18,-33.740776,14.977281,Which question is answered in paragraph 5?
+reading-grade4-2015.js,reading_grade4_2015,2.0,multiple-choice,7,-12.7564,2.7940934,"Based on paragraph 6, Ben's mother may best be described as--"
+reading-grade4-2015.js,reading_grade4_2015,3.0,multiple-choice,1,-23.357252,1.7218027,A student asks this question after reading the story. What activity to ben and Mark choose first? Which paragraph answers this question?
+reading-grade4-2015.js,reading_grade4_2015,4.0,multiple-choice,9,-13.43829,-5.7574334,Eli shows he wants to be Mark's friend by --
+reading-grade4-2015.js,reading_grade4_2015,5.0,multiple-choice,9,-14.529168,1.9610956,Ben agrees to go to camp because he--
+reading-grade4-2015.js,reading_grade4_2015,6.0,multiple-choice,1,-16.061632,3.822872,Which sentence best supports the idea that Ben is excited about summer vacation at the beginning of the story?
+reading-grade4-2015.js,reading_grade4_2015,7.0,multiple-choice,9,-28.074371,-6.7469788,"Once summer is over, the three boys will most likely--"
+reading-grade4-2015.js,reading_grade4_2015,8.0,multiple-choice,2,22.20762,-10.905446,Read this sentence from paragraph 2. Mud kept the houses cool from the soaring temperatures. Which word has the same meaning as soaring in this sentence?
+reading-grade4-2015.js,reading_grade4_2015,9.0,multiple-choice,18,-33.59022,12.886294,"Which question is answered in the section titled ""Clothing and Hair""?"
+reading-grade4-2015.js,reading_grade4_2015,10.0,multiple-choice,4,5.443006,12.108257,What is the main idea of paragraph 6?
+reading-grade4-2015.js,reading_grade4_2015,11.0,multiple-choice,19,-8.032562,-29.594172,Which of these best describes the roof of an ancient Egyptian home?
+reading-grade4-2015.js,reading_grade4_2015,12.0,multiple-choice,19,-8.166059,-27.843935,Information from the article shows that the ancient Egyptians were--
+reading-grade4-2015.js,reading_grade4_2015,13.0,multiple-choice,8,14.353045,20.382858,Which sentence about this article is a fact?
+reading-grade4-2015.js,reading_grade4_2015,14.0,multiple-choice,11,18.728231,1.5891602,A student makes these notes about the article. Which of these belongs on the blank line?
+reading-grade4-2015.js,reading_grade4_2015,15.0,multiple-choice,19,-7.9902806,-28.59617,Which sentence is most likely true about the ancient Egyptians?
+reading-grade4-2015.js,reading_grade4_2015,16.0,multiple-choice,16,12.374664,-13.598943,"Read this sentence from the flier. Teddy bears, posters, games, stickers, and pencils are just some of the prizes for the luck y winners. In which word does - y mean the same as it does in luck y ?"
+reading-grade4-2015.js,reading_grade4_2015,17.0,multiple-choice,10,10.619738,-17.752474,Complete this list of school fair activities.
+reading-grade4-2015.js,reading_grade4_2015,18.0,multiple-choice,10,11.695961,-16.59564,Money earned during the fundraisers will be used to pay for--
+reading-grade4-2015.js,reading_grade4_2015,19.0,multiple-choice,9,-28.937582,-5.905361,The principal will sit in the dunking booth most likely because he wants to--
+reading-grade4-2015.js,reading_grade4_2015,20.0,multiple-choice,17,13.14615,27.575907,What is the main reason the author wrote the flier?
+reading-grade4-2015.js,reading_grade4_2015,21.0,multiple-choice,17,15.123752,24.859512,Which sentence about the flier is an opinion?
+reading-grade4-2015.js,reading_grade4_2015,22.0,multiple-choice,13,11.398766,-3.086437,"Read this sentence. The factory will manufacture new tractors and other farm machines. In this sentence, the word manufacture means--"
+reading-grade4-2015.js,reading_grade4_2015,23.0,multiple-choice,13,18.360533,-3.0729551,In which sentence is the underlined word used correctly?
+reading-grade4-2015.js,reading_grade4_2015,24.0,multiple-choice,13,5.715042,-5.634084,Select the meaning of rich as used in this sentence. I could barely finish my slice of that rich chocolate cake.
+reading-grade4-2015.js,reading_grade4_2015,25.0,multiple-choice,7,-21.718056,0.6377311,"Read paragraph 7. ""You won again,"" Sidney muttered, and his head drooped. Which sentence tells why Sidney is acting this way?"
+reading-grade4-2015.js,reading_grade4_2015,26.0,multiple-choice,13,0.0043675173,-6.4761043,"Read these sentences from paragraph 18. ""No, no,"" argued Alligator. ""I was just yawning."" The author includes this information to show that Alligator is--"
+reading-grade4-2015.js,reading_grade4_2015,27.0,multiple-choice,1,-20.953331,3.0874336,Which sentence about the story best shows that Max is careful?
+reading-grade4-2015.js,reading_grade4_2015,28.0,multiple-choice,15,25.3327,0.83948886,Complete this web with the most appropriate option for the blank circle.
+reading-grade4-2015.js,reading_grade4_2015,29.0,multiple-choice,1,-22.203592,1.7055914,Which lesson does Sidney leam in the story?
+reading-grade4-2015.js,reading_grade4_2015,30.0,multiple-choice,1,-21.118813,5.1043167,Which detail about the setting is most important to the story?
+reading-grade4-2015.js,reading_grade4_2015,31.0,multiple-choice,5,-23.647676,20.343046,"Based on lines 1-4 of the poem, which sentence is correct?"
+reading-grade4-2015.js,reading_grade4_2015,32.0,multiple-choice,4,1.9019089,7.6596756,The author includes lines 7 and 8 to--
+reading-grade4-2015.js,reading_grade4_2015,33.0,multiple-choice,16,-9.29853,-13.114441,Which of these are the thieves trying to find?
+reading-grade4-2015.js,reading_grade4_2015,34.0,multiple-choice,5,-18.2536,22.362335,What is the speaker doing in the poem?
+reading-grade4-2015.js,reading_grade4_2015,35.0,multiple-choice,13,0.8737417,-3.6674867,"In paragraph 3, what does crushed mean?"
+reading-grade4-2015.js,reading_grade4_2015,36.0,multiple-choice,15,-1.9105958,-15.65406,Which choice best completes this cause-and-effect chart?
+reading-grade4-2015.js,reading_grade4_2015,37.0,multiple-choice,8,17.593792,21.153477,Which sentence about the article is an opinion?
+reading-grade4-2015.js,reading_grade4_2015,38.0,multiple-choice,15,22.885658,-0.7689845,Complete these notes.
+reading-grade4-2015.js,reading_grade4_2015,39.0,multiple-choice,8,14.807273,13.545325,The main reason the author wrote this article is to--
+reading-grade4-2015.js,reading_grade4_2015,40.0,multiple-choice,2,20.77057,-6.4569397,Which two words are synonyms?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,1.0,multiple-choice,4,8.062921,7.230012,The details in paragraphs 6-8 show--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,2.0,multiple-choice,7,-17.485239,-10.480507,Paragraphs 11-14 show that Callie's mother--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,3.0,multiple-choice,4,-16.870674,-10.569532,Paragraph 15 is mostly about the way Callie--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,4.0,multiple-choice,7,-18.393738,-10.36932,Why does Mrs. Baker need Callie's help?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,5.0,multiple-choice,6,2.5312161,18.587374,Which heading would be best for paragraph 2?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,6.0,multiple-choice,3,14.971366,-14.915191,Read this dictionary entry. support (sə-pôrt') v. 1. To give help. 2. To hold up. 3. To keep strong. 4. To provide for. Which meaning of support is used in paragraph 4?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,7.0,multiple-choice,4,2.0187128,9.193494,The author includes paragraphs 5 and 6 most likely to--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,8.0,multiple-choice,13,17.119165,22.915335,Which sentence about the Ice Hotel is an opinion?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,9.0,multiple-choice,16,7.1165824,-24.890118,Which detail about the hotel most likely attracts visitors' attention?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,10.0,multiple-choice,9,-13.023609,-7.4888983,Branch Rickey wanted Jackie to be part of the Brooklyn Dodgers because--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,11.0,multiple-choice,8,16.40686,14.934392,The author wrote this article most likely to--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,12.0,multiple-choice,5,-23.647585,20.342709,"Based on lines 1-4 of the poem, which sentence is correct?"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,13.0,multiple-choice,5,-21.840155,19.310995,Lines 5-8 are important to the poem because they reveal--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,14.0,multiple-choice,16,-9.255855,-12.888641,The thieves are out at night because they are--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,15.0,multiple-choice,5,-18.253502,22.362196,What is the speaker doing in the poem?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,16.0,multiple-choice,4,3.605527,7.7740736,The author includes the first paragraph in order to--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,17.0,multiple-choice,16,3.9651096,-22.096,"Read this paragraph from the introduction. Visitors are cautioned to pay attention to the surroundings while in these areas. This is a wild place with unpredictable weather changes. With miles of woods and few roads, rescue is difficult or impossible. All visitors are responsible for exploring the area safely. What does cautioned mean?"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,18.0,multiple-choice,2,21.742714,-3.1498628,"Read this thesaurus entry. complete adj. - entire, finished, perfect, total. Which word best replaces complete in the ""Hiking Essentials"" section?"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,19.0,multiple-choice,16,19.414906,5.8964324,"Based on the information in the ""Keep an Eye to the Sky"" section, the reader can tell that the weather--"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,20.0,multiple-choice,15,1.3064688,-26.193113,In which section would the author most likely add information about planning when to hike?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,21.0,multiple-choice,16,1.3719031,-22.18849,The flier shows that Thatcher National Wilderness Area has all of these EXCEPT--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,22.0,multiple-choice,17,14.047782,25.843071,Which sentence is the best summary of the flier?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,23.0,multiple-choice,4,7.431264,6.1174817,The author includes information about the setting in paragraph 1 to--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,24.0,multiple-choice,4,3.9048297,9.6797285,Why does the author include paragraph 4?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,25.0,multiple-choice,4,4.688547,11.486649,What is paragraph 13 mainly about?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,26.0,multiple-choice,9,-11.875218,0.3076607,Why does Papa tell Benjamin that he can pack two books on the wagon?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,27.0,multiple-choice,9,-12.934944,-0.3339506,Benjamin begins thinking of faraway places when he--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,28.0,multiple-choice,1,-26.38558,4.756155,What is the main conflict of the story?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,29.0,multiple-choice,9,-11.994069,1.2213192,What is the most important reason Miss Cotter tells Benjamin about Mr. Peters?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,30.0,multiple-choice,9,-13.159605,0.9985053,"After Benjamin reads the letter, he most likely feels--"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,31.0,multiple-choice,2,20.862099,-7.5764337,Which word is a synonym for settle as it is used in paragraph 1?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,32.0,multiple-choice,13,-1.4466028,-3.7695186,What does jolt mean in paragraph 2?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,33.0,multiple-choice,18,-31.88547,11.830504,"Which question is answered in the ""Searching for a Buried Treasure"" section of the article?"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,34.0,multiple-choice,4,-0.31328896,7.457542,Paragraph 11 helps the reader to understand that the pioneers--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,35.0,multiple-choice,6,4.184142,16.242159,Which sentence best states the main idea of paragraph 14?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,36.0,multiple-choice,11,8.005923,-12.386487,"According to the article, which part of the ship was uncovered first?"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,37.0,multiple-choice,2,13.4440975,-10.687693,In which word does - al have the same meaning as it does in sign al ?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,38.0,multiple-choice,11,7.9881973,-12.336582,"According to the article, the objects that were discovered showed--"
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,39.0,multiple-choice,8,-8.613848,-11.249368,The accident most likely happened because the--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,40.0,multiple-choice,8,14.52306,18.302061,Which sentence did the author include in the article to suggest that the project was expensive?
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,41.0,multiple-choice,8,16.036219,14.057559,The author most likely wrote the article to--
+reading-grade4-practice-2024.js,reading_grade4_practice_2024,42.0,multiple-choice,8,14.144996,13.808445,The article supports the idea that--
+reading-grade5-2015.js,reading_grade5_2015,1.0,multiple-choice,13,9.286791,-1.2635982,What does the word devised mean in paragraph 2?
+reading-grade5-2015.js,reading_grade5_2015,2.0,multiple-choice,9,-32.596844,-5.6149783,"At the beginning of the story, what does Charlie think about the morning news program?"
+reading-grade5-2015.js,reading_grade5_2015,3.0,multiple-choice,9,-32.400665,-7.4415483,"Charlie's mother calls him an ""experimenter"" because he--"
+reading-grade5-2015.js,reading_grade5_2015,4.0,multiple-choice,9,-31.434732,-6.328336,What happens as Charlie walks to his classroom?
+reading-grade5-2015.js,reading_grade5_2015,5.0,multiple-choice,9,-32.105846,-6.6628823,Why does Charlie wait until after school to share his idea with Mrs. Barnes?
+reading-grade5-2015.js,reading_grade5_2015,6.0,multiple-choice,9,-31.92367,-5.7170663,"Based on the ending of the story, what will Charlie most likely do during the next school news program?"
+reading-grade5-2015.js,reading_grade5_2015,7.0,multiple-choice,6,3.0509634,18.463423,Which would be the best heading for paragraph 2?
+reading-grade5-2015.js,reading_grade5_2015,8.0,multiple-choice,4,7.4487977,11.021976,How is the information in paragraphs 5 and 6 organized?
+reading-grade5-2015.js,reading_grade5_2015,9.0,multiple-choice,16,6.0110226,-8.527502,Which sentence supports the idea that blobfish are rarely seen by people?
+reading-grade5-2015.js,reading_grade5_2015,10.0,multiple-choice,8,17.77417,15.734824,"Based on this article, what does the author most likely believe?"
+reading-grade5-2015.js,reading_grade5_2015,11.0,multiple-choice,8,17.228973,20.92316,Which sentence from the article is an opinion?
+reading-grade5-2015.js,reading_grade5_2015,12.0,multiple-choice,2,19.925919,-11.344888,"Read this sentence from paragraph 3. On the drive from Arlington that morning, Rachel listened to her family's excited chatter about their trip. Which word would be the best synonym for the word chatter as it is used in this sentence?"
+reading-grade5-2015.js,reading_grade5_2015,13.0,multiple-choice,7,-24.933388,-4.387156,"As Rachel approaches the camp activity areas, she discovers that all of them--"
+reading-grade5-2015.js,reading_grade5_2015,14.0,multiple-choice,7,-25.029804,-2.2073567,Rachel's main conflict in the story is with--
+reading-grade5-2015.js,reading_grade5_2015,15.0,multiple-choice,7,-24.571333,-4.0652494,What changes Rachel's mind about the camp?
+reading-grade5-2015.js,reading_grade5_2015,16.0,multiple-choice,7,-24.718903,-4.9683976,Rachel wants to stay home for the summer because she--
+reading-grade5-2015.js,reading_grade5_2015,17.0,multiple-choice,7,-21.820553,-11.759968,Which quality do Lyla and Sarah share?
+reading-grade5-2015.js,reading_grade5_2015,18.0,multiple-choice,3,-5.153526,-13.9138155,"Based on the recipe, a reader should consider cooking syrup in order to--"
+reading-grade5-2015.js,reading_grade5_2015,19.0,multiple-choice,13,13.737104,21.803608,Which sentence is a fact based on the recipe?
+reading-grade5-2015.js,reading_grade5_2015,20.0,multiple-choice,13,-4.371057,-13.2993355,"If the author had included reasons for using honey instead of sugar, in which section would it appear?"
+reading-grade5-2015.js,reading_grade5_2015,21.0,multiple-choice,3,-5.453175,-14.1080885,"If a person wants extra flavor in the syrup, at which step in the recipe would lemon juice be added?"
+reading-grade5-2015.js,reading_grade5_2015,22.0,multiple-select,2,21.282858,-5.5322704,Which words from this history textbook are synonyms?
+reading-grade5-2015.js,reading_grade5_2015,23.0,multiple-choice,14,-11.684235,8.039933,Which sentence contains an example of figurative language?
+reading-grade5-2015.js,reading_grade5_2015,24.0,multiple-choice,13,7.3107486,-4.3655915,Read this dictionary entry. prime (prīm) adj 1. Of main importance. 2. Of the finest quality. 3. Evenly divisible only by itself and one. n. 4. A time of strength or success in a person's life. Which sentence is an example of definition 2?
+reading-grade5-2015.js,reading_grade5_2015,25.0,multiple-choice,16,11.428309,-22.702288,"Read this sentence from paragraph 6. Since catching a glimpse of Earth from space will be the main reason most guests want to travel to a space hotel, they will be able to open and close viewing windows and watch as the hotel orbits Earth 15 times a day. Which word is a homophone for main ?"
+reading-grade5-2015.js,reading_grade5_2015,26.0,multiple-choice,4,9.366862,8.00922,Paragraphs 6 and 7 mainly provide details about the--
+reading-grade5-2015.js,reading_grade5_2015,27.0,multiple-choice,16,7.6317244,-25.41865,What would an illustration of the outside of the space hotel best help the reader understand?
+reading-grade5-2015.js,reading_grade5_2015,28.0,multiple-choice,16,8.825801,-24.117039,"According to the article, how many guests will the first space hotel hold at one time?"
+reading-grade5-2015.js,reading_grade5_2015,29.0,multiple-choice,16,9.062212,-24.18646,"Based on the article, space hotel guests would wear Velcro suits mainly to--"
+reading-grade5-2015.js,reading_grade5_2015,30.0,multiple-choice,6,8.601667,19.68694,Which sentence would best belong in a summary of the article?
+reading-grade5-2015.js,reading_grade5_2015,31.0,multiple-choice,16,-1.791013,-15.699105,What is the effect of the cause shown below? Cause: Four companies form Galactic Suite Limited.
+reading-grade5-2015.js,reading_grade5_2015,32.0,multiple-choice,16,21.644627,-1.8725561,What is the best title for these notes? Receive 16 weeks of astronaut training Experience conditions of life in space Take a day-and-a-half spacecraft trip
+reading-grade5-2015.js,reading_grade5_2015,33.0,multiple-choice,8,14.912031,10.7809925,The main idea of the article is that space travel--
+reading-grade5-2015.js,reading_grade5_2015,34.0,multiple-choice,2,16.194208,-9.430979,"What is the root word in ""weightlessness""?"
+reading-grade5-2015.js,reading_grade5_2015,35.0,multiple-choice,5,-22.622627,19.387651,The poet includes lines 1 and 2 most likely to--
+reading-grade5-2015.js,reading_grade5_2015,36.0,multiple-choice,7,-18.633297,-7.8428707,Nellie Bly writes about her journey for New York World because she wants to--
+reading-grade5-2015.js,reading_grade5_2015,37.0,multiple-choice,7,-18.466196,-8.1479845,Nellie Bly's boss most likely believes that women--
+reading-grade5-2015.js,reading_grade5_2015,38.0,multiple-choice,7,-18.924004,-7.0586333,Which question presents one problem Nellie faced during her trip?
+reading-grade5-2015.js,reading_grade5_2015,39.0,multiple-choice,5,-21.139864,15.8181715,Which of these is the best summary of the poem?
+reading-grade5-2015.js,reading_grade5_2015,40.0,multiple-choice,2,14.484226,-8.575685,Which root word has a prefix and a suffix?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,1.0,multiple-choice,4,4.5868692,6.8284793,The author's purpose in the first paragraph is to--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,2.0,multiple-choice,2,-2.3422472,-10.610413,Read these sentences from paragraph 3. Jefferson brought seeds and plants back from his travels. He even tried to grow broccoli from Italy and peppers from Mexico. Which word from a glossary entry best describes Jefferson's plants in these sentences?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,3.0,multiple-choice,16,-5.8836455,-9.513116,The idea that Monticello continues to attract attention is best supported by the fact that--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,4.0,multiple-choice,13,-2.4238167,-11.005938,"According to the article, how was Jefferson different from most American farmers of his time?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,5.0,multiple-choice,13,2.8341577,-3.4856172,"In paragraph 7, what does the word rifling mean?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,6.0,multiple-choice,1,-23.730555,5.012798,The resolution of the story occurs when Leroy--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,7.0,multiple-choice,9,-12.292723,-9.09392,Leroy first begins to understand the value of hard work when he--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,8.0,multiple-choice,9,-12.846536,-10.789869,"After Leroy decides to help Grandma Etta, why must they wait several days before making the soup?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,9.0,multiple-choice,9,-12.777311,-10.724654,Leroy performed all of these chores for Grandma Etta EXCEPT--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,10.0,multiple-choice,1,-18.308928,0.68237215,"If the story were told from Grandma Etta's point of view, the reader would understand why--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,11.0,multiple-choice,19,-9.168333,16.651573,The idea that ancient people had powerful imaginations is supported by the fact that they--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,12.0,multiple-choice,8,-6.337943,-20.461172,The main idea of the article is that the one-horned deer —
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,13.0,multiple-choice,15,8.968703,19.089365,Which detail would best belong in a summary of the article?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,14.0,multiple-choice,5,-21.13966,15.818134,Which of these is the best summary of the poem?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,15.0,multiple-choice,9,-8.387532,7.3218203,"In ""Born in the Desert,"" the reader can tell that Rahim first becomes nervous when he--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,16.0,multiple-choice,13,-7.7124634,7.7629476,"Which sentence from ""Born in the Desert"" is the best example of a comparison?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,17.0,multiple-choice,16,2.004519,-17.364819,"Read this list. According to ""Buddies Make a Difference,"" which activity belongs on the list?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,18.0,multiple-choice,10,2.0796425,-17.127949,"Fifth graders are buddies in ""Buddies Make a Difference"" because they--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,19.0,multiple-choice,9,-8.33763,7.535815,"Rahim from ""Born in the Desert"" and Tim from ""Buddies Make a Difference"" both--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,20.0,multiple-choice,12,1.7363276,-24.889618,"What is the main idea of the section titled ""Prospecting: Then and Now""?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,21.0,multiple-choice,3,30.97424,3.0637383,"According to step 3 of the ""Panning Instructions"" section, the main effect of swirling the pan in the water is to--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,22.0,multiple-choice,15,29.540411,4.308768,"Which detail would be the least important to include in a summary of the section ""Panning Instructions""?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,23.0,multiple-choice,3,3.2024302,-22.434935,"In addition to providing light to visitors, using electric power lines in the mine will--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,24.0,multiple-choice,3,31.262321,3.5969834,"Based on the ""Panning Instructions"" section, everything may fall out of the pan if the--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,25.0,multiple-choice,15,30.14179,4.08728,"If the author added additional questions about panning to the ""Frequently Asked Questions"" section, which would be least useful to the reader?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,26.0,multiple-choice,3,7.612193,-6.4767165,"What does the word processing mean in the section ""How long should I plan to stay at the mine""?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,27.0,multiple-choice,16,1.8495196,-22.946894,"Based on the brochure, which location is NOT a place prospectors mine for minerals?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,28.0,multiple-choice,16,6.818464,-23.602942,"According to the article, which activity is done by both visitors and staff?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,29.0,multiple-choice,3,31.606281,3.043313,"According to the brochure, visitors should swirl the pans slowly because the--"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,30.0,multiple-choice,16,1.1616929,-9.334321,In which part of the brochure would the author include the names of local jewelers who work with gemstones?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,31.0,multiple-choice,2,20.067513,-6.172395,Which two words from the brochure are antonyms?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,32.0,multiple-choice,2,21.495394,-8.889234,"Read this thesaurus entry. scrub v. - clean, erase, polish, scrap. Which word best replaces scrub in paragraph 6?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,33.0,multiple-choice,14,-2.5547428,-4.3246055,"Read this sentence from paragraph 7. Then she breezed around the mess, burst out the front door, and escaped. Which meaning of burst is used in this sentence?"
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,34.0,multiple-choice,7,-25.411291,-7.095574,Maddy tosses her brother's backpack on the floor because she--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,35.0,multiple-choice,7,-25.38502,-7.7390685,Maddy goes to the game most likely because she--
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,36.0,multiple-choice,1,-20.68462,4.528757,Which phrase from the story tells the most about the setting?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,37.0,multiple-choice,14,-11.817799,8.042836,Which sentence from the story contains an example of figurative language?
+reading-grade5-practice-2024.js,reading_grade5_practice_2024,38.0,multiple-choice,1,-25.124846,-1.4567064,The main conflict in the story is that Maddy--
+reading-grade6-2015.js,reading_grade6_2015,1.0,multiple-choice,7,-18.58985,-3.3125505,"Read this sentence from paragraph 2. Julia relaxed, thinking Mr. Malone would let another tardy slide by. What does this sentence suggest?"
+reading-grade6-2015.js,reading_grade6_2015,2.0,multiple-choice,7,-20.70451,-4.5613747,"In paragraph 6, Julia's response to the news that she cannot attend the field trip best indicates that she--"
+reading-grade6-2015.js,reading_grade6_2015,3.0,multiple-choice,7,-21.367023,-3.5723255,"In paragraph 12, which topic do the adults most likely discuss before Julia arrives?"
+reading-grade6-2015.js,reading_grade6_2015,4.0,multiple-choice,13,7.4646854,0.82749885,"In paragraph 14, what does acknowledgment mean?"
+reading-grade6-2015.js,reading_grade6_2015,5.0,multiple-choice,13,10.295487,-0.43083525,Which word in paragraph 17 signals a generalization?
+reading-grade6-2015.js,reading_grade6_2015,6.0,multiple-choice,7,-20.50271,-2.0464234,Select the appropriate effect of the cause listed below. Cause: Julia is tardy three times.
+reading-grade6-2015.js,reading_grade6_2015,7.0,multiple-choice,7,-21.205244,-2.711045,Which statement is most likely true about Julia's dad?
+reading-grade6-2015.js,reading_grade6_2015,8.0,multiple-choice,7,-20.814861,-4.549666,Which sentence states the most likely reason Julia is allowed to go on the field trip?
+reading-grade6-2015.js,reading_grade6_2015,9.0,multiple-choice,7,-22.037521,-2.7308617,"At the end of the story, the reader may best conclude that the biggest reward for Julia is--"
+reading-grade6-2015.js,reading_grade6_2015,10.0,multiple-choice,15,2.7919717,-28.237934,"Which information would best be included in ""The Mystery of Mountain Lake"" section?"
+reading-grade6-2015.js,reading_grade6_2015,11.0,multiple-choice,13,2.5365877,-26.981323,"According to information in paragraph 4, the main goal of Mountain Lake Conservancy is to--"
+reading-grade6-2015.js,reading_grade6_2015,12.0,multiple-choice,6,3.2440534,19.291494,Which heading would be best for paragraph 5?
+reading-grade6-2015.js,reading_grade6_2015,13.0,multiple-choice,4,7.9972167,9.715833,The author organizes information in paragraph 6 by--
+reading-grade6-2015.js,reading_grade6_2015,14.0,multiple-choice,0,3.054431,-28.604843,"Based on the article, the mystery at Mountain Lake was difficult to solve since the cause of the changing water levels was--"
+reading-grade6-2015.js,reading_grade6_2015,15.0,multiple-choice,16,4.8534865,-27.793467,"The author refers to the hotel as ""The historical Mountain Lake Hotel"" most likely because of its--"
+reading-grade6-2015.js,reading_grade6_2015,16.0,multiple-choice,16,5.035624,-27.634586,"According to the article, the most likely reason visitors return to the Mountain Lake Hotel is to--"
+reading-grade6-2015.js,reading_grade6_2015,17.0,multiple-choice,8,17.272396,20.508553,Which sentence from the article states an opinion?
+reading-grade6-2015.js,reading_grade6_2015,18.0,multiple-choice,2,17.80299,-11.037699,"Which word means ""to be continually engaged in close, careful study""?"
+reading-grade6-2015.js,reading_grade6_2015,19.0,multiple-choice,16,2.8470325,-8.502821,"The author's use of the word ""flying"" in the title best shows that the speaker--"
+reading-grade6-2015.js,reading_grade6_2015,20.0,multiple-choice,5,-18.843878,23.780493,"Read lines 4-5 from the poem. My sled and I are like one creature; We lean together in the turns, Based on these lines, the speaker's closeness to the sled shows the speaker is--"
+reading-grade6-2015.js,reading_grade6_2015,21.0,multiple-select,2,21.873468,-6.681876,Which two words are the best synonyms for lumber in line 18?
+reading-grade6-2015.js,reading_grade6_2015,22.0,multiple-choice,13,4.783327,22.85283,Which line best suggests that the speaker has been down the hill in the past?
+reading-grade6-2015.js,reading_grade6_2015,23.0,multiple-choice,3,-11.05382,25.88939,What will the speaker most likely do next?
+reading-grade6-2015.js,reading_grade6_2015,24.0,multiple-choice,16,10.106222,-8.33754,"Read this sentence. A small vice in Craig's writing style is his habit of not explaining his ideas, but he can improve his skills with increased effort. What is the meaning of vice in this sentence?"
+reading-grade6-2015.js,reading_grade6_2015,25.0,multiple-choice,2,15.107709,-8.665864,"Which word comes from a root that means ""to try""?"
+reading-grade6-2015.js,reading_grade6_2015,26.0,multiple-choice,18,-32.470028,13.932084,Which question is answered in the first paragraph?
+reading-grade6-2015.js,reading_grade6_2015,27.0,multiple-choice,15,23.946074,4.559381,"What information could best be added to the section ""Clip, Save, and Win""?"
+reading-grade6-2015.js,reading_grade6_2015,28.0,multiple-choice,16,12.716063,-13.313495,"Read this sentence from ""Win a Lions T-Shirt."" Just fill out this form, drop it off at the school store, and listen to the announce ments every morning. In which word does - ment have the same meaning as it does in announce ment ?"
+reading-grade6-2015.js,reading_grade6_2015,29.0,multiple-choice,16,7.8443127,-20.083221,What is the purpose of the Lion's Den?
+reading-grade6-2015.js,reading_grade6_2015,30.0,multiple-select,10,8.018791,-19.3552,Complete these notes. Ways the Lion's Den tries to persuade students to visit the school store:
+reading-grade6-2015.js,reading_grade6_2015,31.0,multiple-choice,10,8.809721,-17.64951,The school store will most benefit students who--
+reading-grade6-2015.js,reading_grade6_2015,32.0,multiple-choice,17,13.977924,24.938122,Which sentence states a fact about the information in the flier?
+reading-grade6-2015.js,reading_grade6_2015,33.0,multiple-choice,16,-10.305558,-18.191267,Paragraph 1 indicates that therapy dogs can work with children who--
+reading-grade6-2015.js,reading_grade6_2015,34.0,multiple-choice,18,-32.506447,15.111288,Which question is answered in paragraph 2?
+reading-grade6-2015.js,reading_grade6_2015,35.0,multiple-choice,13,6.8064384,-0.6778061,"In paragraph 4, the word circumstances means--"
+reading-grade6-2015.js,reading_grade6_2015,36.0,multiple-choice,15,-10.204683,-18.237825,Which paragraph in the article discusses the role of the dog's handler during a therapy session?
+reading-grade6-2015.js,reading_grade6_2015,37.0,multiple-choice,10,-10.934671,12.735695,"Based on the article, what might a child most likely be able to do after several reading therapy sessions?"
+reading-grade6-2015.js,reading_grade6_2015,38.0,multiple-choice,16,-11.288053,13.034679,What may the reader conclude about birds in reading therapy programs?
+reading-grade6-2015.js,reading_grade6_2015,39.0,multiple-choice,8,13.435048,14.194992,This article answers all these questions EXCEPT--
+reading-grade6-2015.js,reading_grade6_2015,40.0,multiple-choice,2,21.66165,-9.774146,"Read this thesaurus entry. slumped v. -- Slid, sank, tumbled, crashed. Which word best replaces slumped in paragraph 5?"
+reading-grade6-2015.js,reading_grade6_2015,41.0,multiple-choice,6,6.02323,19.956358,Which sentence is the best summary of paragraph 10?
+reading-grade6-2015.js,reading_grade6_2015,42.0,multiple-select,4,11.492653,9.301878,Use paragraphs 13 and 14 to complete this web.
+reading-grade6-2015.js,reading_grade6_2015,43.0,multiple-choice,16,-6.6419964,-8.592012,What could be the cause of the effect shown? Effect: Anthony suddenly remembers Field Day.
+reading-grade6-2015.js,reading_grade6_2015,44.0,multiple-choice,1,-21.372192,2.1458175,Which sentence from the story best shows that Anthony can be responsible?
+reading-grade6-2015.js,reading_grade6_2015,45.0,multiple-choice,16,2.1465855,-8.668688,What does the title mean?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,1.0,multiple-choice,1,-18.985668,3.3761568,Quinterro's thoughts in paragraphs 1 and 2 most contribute to the plot of the story by--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,2.0,multiple-choice,16,15.957456,-4.155719,"The word binoculars in paragraph 17 comes from the Latin word ocular , which means--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,3.0,multiple-choice,1,-26.38558,4.756155,What is the main conflict of the story?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,4.0,multiple-choice,1,-19.482832,9.127124,Which sentence best expresses the theme of the story?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,5.0,multiple-choice,4,5.281091,8.0225725,The author's purpose for including paragraph 2 is to explain--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,6.0,multiple-choice,4,-2.5140514,4.6421866,"In paragraph 6, the author explains that lava —"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,7.0,multiple-choice,6,5.4935904,19.72624,Which sentence best summarizes paragraph 10?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,8.0,multiple-choice,8,16.546745,21.626669,Which sentence from the article states an opinion about the Ring of Fire?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,9.0,multiple-choice,8,-2.9235268,4.657206,"Based on the article, the reader can determine that volcanic activity--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,10.0,multiple-choice,14,-4.1949806,-3.5569034,"Read this sentence from paragraph 1. Once again her room looked like a whirlwind had blown through it, and she knew exactly who the culprit was. The author uses hyperbole in this sentence to--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,11.0,multiple-choice,13,5.990698,-2.9715664,"In paragraph 2, the word appraise means--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,12.0,multiple-choice,4,2.488572,8.769986,The author includes paragraphs 11-13 mainly to--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,13.0,multiple-choice,7,-17.020103,-4.9111595,The empty swing in paragraph 15 leads Alice to the resolution by helping her realize--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,14.0,multiple-choice,8,12.706079,11.939939,The author chooses to use this point of view because--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,15.0,multiple-choice,6,5.4254684,20.967693,Which sentence best summarizes lines 15-17?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,16.0,multiple-choice,5,-18.079271,20.33921,The setting of the poem affects the speaker by--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,17.0,multiple-choice,7,-16.838158,-0.024382083,The reader knows that the speaker's point of view has changed since her last visit to the island because she--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,18.0,multiple-choice,13,12.298547,-5.087379,"The Latin word internalis means ""extending to the interior."" In paragraph 1 of the article, internal means--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,19.0,multiple-choice,2,17.937107,-9.283198,Which word is a synonym for fatigue in paragraph 3?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,20.0,multiple-choice,4,10.263749,8.027743,Paragraph 7 is organized by using--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,21.0,multiple-choice,14,-2.2077029,-8.095047,"Based on the article, plants unfold their leaves to--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,22.0,multiple-choice,13,1.5467963,4.6055884,The author's word choice in paragraph 1 introduces a tone of--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,23.0,multiple-choice,13,5.0498343,-3.6298094,Which word in paragraph 18 does the author use to influence the reader's attitude about Sydney?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,24.0,multiple-choice,7,-23.010002,-12.771061,Jada most likely smiles at the end of the story because she--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,25.0,multiple-choice,7,-23.395334,-13.1471405,Zach knows that Jada is not as meek as she seems because she —
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,26.0,multiple-choice,9,-24.189993,-13.480762,Zach discusses eclipses with Jada because--
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,27.0,multiple-choice,1,-26.364553,-13.45651,"Based on information in the story, the reader understands that Zach--"
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,28.0,multiple-choice,1,-18.881123,9.1984825,Which sentence best expresses a theme of the story?
+reading-grade6-practice-2024.js,reading_grade6_practice_2024,29.0,multiple-choice,1,-26.162912,-13.511722,Zach's character is important to the story because he--
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,7,-17.009142,-2.2370827,"In paragraph 4, the author includes the detail of Mrs. Parker sounding ""a little too patient"" to suggest that —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,2,13.374591,-10.438488,"Read this sentence from paragraph 7. ""They're fiction al , of course, but I want to name them after real places that nobody knows much about."" In which word does the suffix - al have the same meaning as it does in fiction al ?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,13,-27.515186,0.2802595,Which word in paragraph 17 conveys Jared's embarrassment?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,15,23.15443,-0.523484,Complete this web.
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,1,-28.776098,1.5833744,"In this story, Jared's main conflict can be described as —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,1,-28.961498,0.9723586,"In a summary of this story, the most important detail to include is how Jared —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,1,-29.481022,0.6940047,"By the end of the story, readers can best predict that Jared will —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,4,4.226963,9.395072,Why does the author include paragraph 1?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,13,8.733851,-2.3520958,What does domesticated mean in paragraph 2?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,13,4.0214486,0.47068092,"In paragraph 4, reverence means —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,19,-7.721007,-26.721071,Read this sentence from paragraph 4. The Egyptians did not wish to harm the animals. Why does the author include this detail in the article?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,6,5.4101934,18.880527,Which statement best summarizes paragraph 5?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,19,-8.815558,-29.102726,Which word from paragraph 7 best shows how Maus are viewed in Egypt today?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,19,-8.855002,-27.046022,"According to the article, cats started gaining acceptance in Egypt when —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,19,-9.432872,-28.77116,What problem do Maus currently experience in Egypt?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,15,-7.974666,-18.838764,Which paragraph from the article offers the most useful information for a report about how groups help animals?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,15,-8.375502,-18.310617,Which idea from the article offers the best support for a presentation about the effect pets can have on owners?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-15.25563,12.42737,The pine thinks the oak should be ashamed because the oak —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,5,-15.603826,13.025223,"Based on the details in this poem, the oak tree and pine tree are most likely located —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,5,-23.4711,15.22726,Who is the narrator in this poem?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,5,-23.007645,17.753057,"Based on the end of the poem, what will most likely happen in the future?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-14.827662,11.481081,The trees speaking to each other is an example of —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,5,-20.803879,16.94939,Which of these is a theme of this poem?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,2,17.961975,-14.370899,"The word sympathy comes from Greek roots that mean ""similar emotion."" Based on the Greek roots, which is the best example of sympathy ?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,4,7.7857304,9.309609,The author organizes the information in paragraph 3 by —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,2,-1.2049088,2.0082374,Read this sentence from paragraph 6. His influence is evident; many painters mimic his style and use of color and texture. Which word is a synonym for mimic ?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-3.9278834,23.488886,Which of these does the author seem to admire most about van Gogh's paintings?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-4.32735,24.131063,"Based on the article, van Gogh learned how to paint by —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-4.815721,22.959787,The author includes a photograph of The Starry Night in order to —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,-3.4269438,23.789707,Which word does the author use to show a contrast? Yet van Gogh today is considered one of the greatest artists of all time .
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,15,-3.079082,22.625755,"Which paragraph would be most useful for writing a report titled ""A Detailed Look at van Gogh's Most Famous Works""?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,11,15.361777,2.3819852,"The author's word choice in the section ""What's in your bag?"" is best described as —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,3,15.110721,-13.436966,"Which organizational pattern is used in the section ""Satisfaction guaranteed""?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,10,9.29983,-16.750982,In which section of the flier will students learn when to pay for their purchase?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,11,15.468816,2.7872238,The author best explains the features of the merchandise by —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,10,7.737528,-16.882011,Students who want to order more than one bag would most likely —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,11,6.721508,-16.43095,Read this chart a student made about the bags. Which of these shows that the student misunderstood information about the bags?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,13,9.1765995,-2.779042,"In paragraph 1, what does the word localities mean?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,2,18.085321,-7.1312547,Which word is a synonym for provision in paragraph 4?
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,16,4.5094604,-13.138995,"In paragraph 8, the description of the students as a ""small group of budding photographers"" suggests they are —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,11,4.2672715,-14.774925,"In paragraph 8, the other students in Mr. James' classroom are confused because they —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,11,5.090019,-13.380661,"Read this sentence from paragraph 11. The students scrambled to take pictures and stared in amazement. The word ""scrambled"" suggests that the students were —"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,7,-21.644884,-7.348537,"Based on Helen's actions, which of these will most likely occur in the future?"
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,7,-23.382793,-5.340521,Helen is pleased that the club will go on a camping trip because the experience will —
+reading-grade7-2015.js,reading_grade7_2015,,multiple-choice,15,-20.409975,6.2708087,Which detail about the bats should be included in a summary of the story?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,1.0,multiple-choice,16,-3.4073324,-19.335176,"The name ""the osprey garden"" in paragraph 4 gives the reader the impression of--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,2.0,multiple-choice,8,14.572908,19.263716,Which sentence from the article contains a comparison?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,3.0,multiple-choice,15,-4.2499595,-20.1422,Which detail about ospreys should be included in a summary of the article?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,4.0,multiple-choice,4,-0.44180414,9.316061,Paragraph 19 contributes to the theme of the story by showing that--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,5.0,multiple-choice,1,-17.833597,7.071668,Which sentence from the story best communicates a sense of celebration?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,6.0,multiple-choice,7,-15.854841,-8.572016,"In paragraph 3, the newspaper reporter writes about Keichline most likely because she--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,7.0,multiple-choice,13,11.408008,-2.315328,"In paragraph 5, the word innovative means--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,8.0,multiple-choice,4,9.010533,9.315278,"In paragraph 5, the information is organized by--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,9.0,multiple-choice,6,2.2765758,20.509663,"""A Leader in Her Profession"" would be the best heading for which paragraph?"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,10.0,multiple-choice,5,-21.134203,23.099575,Read lines 21 and 22 from the poem. No canvas can compete with such a scene; No tube of paint can duplicate so true These lines show that the speaker believes--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,11.0,multiple-choice,13,1.4939231,-0.6871558,"In line 31, the word comfort has a connotation of —"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,12.0,multiple-choice,5,-17.271334,20.668951,The speaker's word choice in the poem conveys a tone of--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,13.0,multiple-choice,16,18.087265,0.39108092,"At the top of the article, the words ""Student Voices Column"" are in boldface type and placed between horizontal lines in order to--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,14.0,multiple-choice,11,4.572658,-14.578379,"In paragraph 1, the reader knows that the students--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,15.0,multiple-choice,13,3.087297,3.1548505,"In paragraph 3, the author puts ""old-fashioned"" in quotation marks to--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,16.0,multiple-choice,4,3.234174,13.188859,Which detail from paragraphs 3 and 4 emphasizes the author's positive viewpoint about menu items?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,17.0,multiple-choice,14,-4.751903,-2.0329683,"Read this sentence from paragraph 4. Eighth-grader Jasmine Firestone says, ""The new tacos on Tuesdays are the best food in the world!"" Why does the author include this example of hyperbole?"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,18.0,multiple-choice,2,16.675995,-5.895502,Read these glossary entries for words that appear in paragraph 5. alert: Able to think and respond quickly. approach: Move closer to a person or object. designed: Created a drawing or sketch. surveyed: Carefully examined something to determine its value. Which entry gives the meaning of the word as it is used in paragraph 5?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,19.0,multiple-choice,4,5.709422,12.717018,What is the main idea of paragraph 5?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,20.0,multiple-choice,7,-16.923328,-5.671983,"Based on paragraph 6, the main outcome of interviewing Marge LaRough was that the author--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,21.0,multiple-choice,13,18.857965,16.372427,"Based on the word choice in paragraph 7, what does the author most likely believe?"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,22.0,multiple-choice,10,6.466163,-17.603748,Which action by cafeteria staff suggests that student opinions are taken into consideration when making menu decisions?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,23.0,multiple-choice,10,5.729919,-18.349033,"According to the article, cafeteria offerings were different before the 2012 rules in that they--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,24.0,multiple-choice,13,12.348455,21.818956,Which sentence is NOT supported by relevant evidence?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,25.0,multiple-choice,15,28.414309,4.980919,Which paragraph contains useful information for a presentation about how to make dishes healthier?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,26.0,multiple-choice,6,6.4759936,16.41356,Which statement best expresses the author's viewpoint?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,27.0,multiple-choice,13,-0.089296564,-1.6018369,"The phrase ""My heart swelled"" in paragraph 1 conveys that the narrator is--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,28.0,multiple-choice,2,13.34202,-6.014413,"In paragraph 5, the word consecutively comes from a Latin root that means--"
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,29.0,multiple-choice,2,19.129158,-8.113312,Which word is a synonym for enhance in paragraph 19?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,30.0,multiple-choice,5,-16.175016,18.904594,How is figurative language used in the first stanza of the poem?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,31.0,multiple-choice,5,-20.890709,21.357893,Lines 13-14 of the poem convey that the speaker's anger is--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,32.0,multiple-choice,5,-20.387022,20.95196,Lines 29-32 reveal that the speaker of the poem--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,33.0,multiple-choice,5,-18.376808,15.9294195,Which idea is developed in both the story and the poem?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,34.0,multiple-choice,5,-19.313683,17.427359,The endings of the story and the poem both convey a tone of--
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,35.0,multiple-choice,5,-18.19102,18.721626,How do the narrator of the story and the speaker of the poem resolve their conflicts?
+reading-grade7-practice-2024.js,reading_grade7_practice_2024,36.0,multiple-choice,5,-19.038042,15.972252,Which major theme do the story and the poem have in common?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,10.255192,5.1355863,"In paragraph 2, the author's use of the words ""distinguish"" and ""like"" indicates that the information is organized by —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-select,2,6.6416264,-9.889366,"In this excerpt from paragraph 5, which three words are examples of onomatopoeia? Vocalizations include a chitter, which sounds much like the chattering of teeth; a bark, which is similar to that of a dog . . ."
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,14,-7.570389,2.8772678,"Based on paragraph 8, the reader may best infer that the kinkajou —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,14,-7.851106,3.0266285,"According to the article, which sense best helps a kinkajou locate another kinkajou's territory?"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,14,-7.6727614,3.6898878,"According to the article, the kinkajou resembles a monkey because of its —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,1,-14.749736,10.023845,"After their first meeting, the narrator and the horse learn about each other when they —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,1,-25.76512,8.204576,Who is the narrator of this story?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,2,10.214506,-6.5250483,Complete this analogy. Skilled is to expert as —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,12.79273,6.253303,"In paragraph 1, the author suggests that before the Internet, researching a given topic was —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,13,6.860666,-2.3170347,Which meaning best fits the word daunting in paragraph 2?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,4,5.5637255,9.005841,The implied main idea of paragraph 2 is that reference books —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,13.819474,6.322004,"According to paragraph 2, what major change occurred in the organization of early encyclopedias?"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,12.633252,4.5133843,Read this sentence from paragraph 6. Wikipedia is making an effort to improve its accuracy by hiring an army of individuals to hunt down faulty information on its site. The language in this sentence creates a sense of —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,18.822882,1.9506543,Read this part of an outline based on the article. I. The first encyclopedias A. read from beginning to end B. prepared by a single author C. _______________ Which of these belongs on the blank line?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,15.635438,5.7540646,Companies are adapting to the rapidly changing encyclopedia industry by —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,15.888091,6.00194,What has Encyclopaedia Britannica done to improve the quality of its entries?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,8,15.600249,11.792141,The main idea of the article is that people should —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,2,16.212881,-13.341028,Which is a negative connotation of the word prescribe ?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,2,17.069923,-10.816231,"Read this dictionary entry. cor·rode (kə-rōd´) v. 1. Destroy or damage metal, stone, or other materials slowly by chemical action. 2. Be destroyed or damaged in this way. 3. Destroy or weaken gradually. [Latin cor- (expressing intensive force) + rodere 'gnaw.'] The word corrode contains a root that means —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,6,8.029503,18.1129,Which information should be included in a summary of paragraph 2?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,4,5.08408,13.576184,What is the main idea of paragraph 3?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,7,-21.128983,-8.85415,Which event most effectively changes Annie's mind about leaving England?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,7,-20.73553,-9.907681,What makes Annie aware that other passengers are feeling ill?
+reading-grade8-2015.js,reading_grade8_2015,,drag-drop,7,-21.020638,-9.512485,Which two characters influenced Annie's comfort during the voyage?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,1,-18.24971,5.596948,Which event is presented as the climax of the trip?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,10,-5.1821446,18.556747,"Based on the ""Register for a Summer of Stories"" and ""Cast Your Vote"" sections, an important goal for the library is —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,15,23.867847,4.875548,"Which information should be included in a summary of the ""Cast Your Vote"" section?"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,10,10.702551,-16.97614,"According to the flier, what must a teen do to receive prizes?"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,5,-15.54032,20.954905,Which is the most likely reason poets are asked to register for the Poetry Session?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,10,25.317812,9.305242,Which part of the flier would be most useful for students doing research for a paper?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-select,3,27.57047,-5.5396824,Which three are rules or requirements for using the computers?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,17,12.476268,28.022676,The author structured the flier to suggest that the library —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,11,-5.1427264,18.659136,Readers who want to become professional writers would be most interested in knowing that the library —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,13,3.7888873,-1.8070989,What does humility mean in paragraph 2?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,9,-11.129595,-3.6893477,Cody's description of himself in paragraph 2 suggests that he is —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,13,2.022167,-2.1174781,What does tranquil mean in paragraph 4?
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,9,-11.066711,-3.2680902,"Read this sentence from paragraph 7. Then, suddenly, a blurry patch of dense black crosses the trail some distance ahead of me. What may the reader best infer from Cody's statement?"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,4,7.6871505,5.7742076,The author establishes the setting in paragraph 7 through the use of —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,14,-4.064336,-0.5998533,"Read this sentence from paragraph 11. The sun is just starting to burn the dew from the grass, and each green blade, coated with tiny, reflective droplets, is a glittering emerald. The purpose of the metaphor in this sentence is to suggest the —"
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,9,-11.32169,-4.3229446,Cody decides to find his way back out of the park by —
+reading-grade8-2015.js,reading_grade8_2015,,multiple-choice,1,-19.490574,8.444876,Which sentence best describes the theme of the story?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,1.0,multiple-choice,2,8.600244,-4.4382772,"Read this dictionary entry. dis•tinct (dĭ-stĭngkt´) adj. 1. Not identical; separate. 2. Easily recognized; clear. 3. Obviously defined; unquestionable. [Lat. dīstīnctus , p. part. of distinguish] In paragraph 1 of the article, distinct comes from a word that means--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,2.0,multiple-choice,16,-12.905526,15.627976,"Based on the article, the reader can determine that hummingbirds —"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,3.0,multiple-choice,5,-13.315344,15.968657,"In the poem, the hummingbird's nest is a symbol of--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,4.0,multiple-choice,5,-18.28648,17.315105,Both the poem and the article address the theme of--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,5.0,multiple-choice,7,-15.805989,-8.4747095,"In paragraph 7, Mrs. Ellis wishes Keisha good luck most likely because she thinks Keisha--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,6.0,multiple-choice,14,-5.279759,1.5506606,The purpose of the figurative language in paragraph 8 is to foreshadow--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,7.0,multiple-choice,13,-4.0622616,-5.4591584,Read this sentence from paragraph 9. Keisha started to stumble over her words as Mrs. Watson continued to stare at her with an almost belligerent gaze. What is the meaning of the word belligerent ?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,8.0,multiple-choice,4,1.2832065,5.2013683,"In paragraphs 8 and 9, the author's tone can best be described as--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,9.0,multiple-choice,1,-22.18028,5.1022205,Which event is part of the resolution of the story?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,10.0,multiple-choice,2,19.789513,-9.593221,"Read this thesaurus entry. evolve v. — adapt, develop, increase, mature. Which word best replaces evolve as it is used in paragraph 1?"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,11.0,multiple-choice,4,6.252222,3.5515656,"Based on paragraph 4, what can the reader determine?"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,12.0,multiple-choice,16,-8.5305,19.278809,"The organization of the ideas in ""Literature and Art Abound"" supports the author's purpose by--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,13.0,multiple-choice,6,2.7602448,16.490498,"Which sentence from ""A Beginning, Not an End"" best represents the main idea of the section?"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,14.0,multiple-choice,16,-0.76090044,-12.497018,Which detail best supports the idea that Harlem was a center of growth for jazz music in America?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,15.0,multiple-choice,4,7.179813,7.662102,The details in paragraph 2 are mostly about —
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,16.0,multiple-choice,0,15.840714,-26.53416,"Read this sentence from paragraph 4. In fact, more than 4,000 species of fish and marine life may populate a typical coral community. In this sentence, populate means--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,17.0,multiple-choice,4,8.696741,11.959201,The organization of ideas in paragraph 6 supports the author's message by--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,18.0,multiple-choice,4,10.260331,6.7821283,"The use of the word ""however"" indicates that paragraph 7 is organized by--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,19.0,multiple-choice,2,13.448349,-5.2350903,"The word co exist in paragraph 7 has the prefix co -, which means--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,20.0,multiple-choice,0,16.796711,-28.276997,Which information best demonstrates that coral reefs are important to marine life?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,21.0,multiple-choice,0,16.165962,-27.9818,Which information from the article explains the cooperative relationship between algae and reef-dwelling coral?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,22.0,multiple-choice,0,16.592012,-28.934427,Why are coral reefs ideal for the growth of algae?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,23.0,multiple-choice,0,16.022572,-28.88441,How do warming ocean temperatures affect coral?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,24.0,multiple-choice,8,17.28363,11.4572115,"Based on the article, the reader can determine that--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,25.0,multiple-choice,8,16.682869,12.44495,"Based on the article, the author most likely wants the reader to agree that--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,26.0,multiple-choice,0,17.281097,-23.171503,"By describing the ocean's habitat as ""delicate,"" the author intends to--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,27.0,multiple-choice,15,9.438083,18.583336,Which information should be included in a summary of this article?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,28.0,multiple-choice,4,2.7162158,11.057625,Which type of literary device does the author use in paragraphs 6-12?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,29.0,multiple-choice,13,8.8628025,-0.06347098,"In paragraph 8, the word preliminary means--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,30.0,multiple-choice,14,-4.3463597,-0.38954404,"Read this sentence from paragraph 15. The bird had a gray head the color of soot, and its eyes, two onyx stones, were surrounded with black, as if rimmed in eye makeup. The purpose of the figurative language in this sentence is to--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,31.0,multiple-choice,2,19.504517,-7.4350915,Which word is the best antonym for arduous in paragraph 18?
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,32.0,multiple-choice,7,-18.06837,-12.718931,Paragraph 18 suggests that Joanna--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,33.0,multiple-choice,9,-12.201958,-1.9068459,"In paragraph 25, what is Dan's most logical reason for moving away from the waterfall?"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,34.0,multiple-choice,14,-5.601846,1.2433412,The simile in paragraph 30 emphasizes that--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,35.0,multiple-choice,7,-19.20738,-13.289283,Joanna presumes the bird is in distress because it--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,36.0,multiple-choice,7,-18.762047,-12.95338,"In the story, Joanna is--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,37.0,multiple-choice,16,4.923706,-8.375665,"The repetition of "" Plik-plik-plik-plik! "" creates a feeling of--"
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,38.0,multiple-choice,1,-17.70913,1.2591382,The point of view used in the story best helps the reader understand--
+reading-grade8-practice-2024.js,reading_grade8_practice_2024,39.0,multiple-choice,1,-22.16886,9.274399,A theme of the story is that--
