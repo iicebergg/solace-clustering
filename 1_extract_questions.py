@@ -4,15 +4,16 @@ STEP 1 OF 2  -  Extract and clean every SOLace question.
 What this does:
   - Looks at every .js file inside the folder you point it at.
   - Finds the question array in each file (the "...Questions = [ ... ]" block).
-  - Parses it with json5, which understands JavaScript object syntax
-    (single quotes, bare keys like `text:` instead of `"text":`).
-  - Strips the HTML/MathML markup out of each question's `text` so what's
+  - Pulls the id, text, and type out of each question with a small scanner
+    that understands all three JavaScript string styles: 'single', "double",
+    and `backtick` template literals.
+  - Strips the HTML/MathML markup out of each question's text so what's
     left is clean, readable words for the model to work with.
-  - Writes everything to questions.csv (open it in Numbers/Excel to inspect)
-    and questions.json.
+  - Writes everything to <subject>_questions.csv (open it in Numbers/Excel to
+    inspect) and <subject>_questions.json.
 
-Run it with:   uv run python 1_extract_questions.py
-One-time setup: uv add json5      (json5 is the only extra library this needs)
+Run it with: uv run python 1_extract_questions.py
+No extra libraries needed for this step (the scanner is plain Python).
 """
 
 import re
@@ -21,12 +22,10 @@ import json
 import html
 from pathlib import Path
 
-import json5  # parses JavaScript-style object literals; install with `uv add json5`
-
 # ----------------------------------------------------------------------
 # SETTINGS  -  set SUBJECT, then run. One subject per run.
 # ----------------------------------------------------------------------
-SUBJECT = "reading"                       # "math", "reading", or "science"
+SUBJECT = "math"                       # "math", "reading", or "science"
 JS_FOLDER = Path(f"./js_{SUBJECT}")    # this run reads from ./js_math, ./js_reading, etc.
 OUTPUT_DIR = Path(".")                 # output files are named with the subject prefix
 # ----------------------------------------------------------------------
@@ -59,7 +58,7 @@ def find_question_array(source_text):
             if c == quote_char:    # closing quote of the same type
                 in_string = False
         else:
-            if c in "'\"":
+            if c in "'\"`":
                 in_string = True
                 quote_char = c
             elif c == "[":
@@ -71,6 +70,95 @@ def find_question_array(source_text):
         i += 1
 
     return None  # brackets never balanced (malformed file)
+
+
+# Map for the common backslash escapes inside JavaScript strings.
+_ESCAPES = {"n": "\n", "t": "\t", "r": "\r", "b": "\b", "f": "\f",
+            "v": "\v", "0": "\0", "\\": "\\", "'": "'", '"': '"', "`": "`"}
+
+
+def read_js_string(s, i):
+    """Read one JavaScript string starting at s[i] (a ', ", or ` quote).
+
+    Handles backslash escapes and lets backtick strings span newlines.
+    Returns (decoded_text, index_just_after_the_closing_quote).
+    """
+    quote = s[i]
+    j = i + 1
+    out = []
+    while j < len(s):
+        c = s[j]
+        if c == "\\":                       # an escape sequence
+            nxt = s[j + 1] if j + 1 < len(s) else ""
+            if nxt == "u" and j + 6 <= len(s):          # \uXXXX
+                try:
+                    out.append(chr(int(s[j + 2:j + 6], 16)))
+                    j += 6
+                    continue
+                except ValueError:
+                    pass
+            if nxt == "x" and j + 4 <= len(s):          # \xXX
+                try:
+                    out.append(chr(int(s[j + 2:j + 4], 16)))
+                    j += 4
+                    continue
+                except ValueError:
+                    pass
+            out.append(_ESCAPES.get(nxt, nxt))          # known escape, else the raw char
+            j += 2
+            continue
+        if c == quote:                       # closing quote of the same kind
+            return "".join(out), j + 1
+        out.append(c)
+        j += 1
+    return "".join(out), j                    # unterminated; return what we have
+
+
+def parse_questions(array_text):
+    """Pull id, text, and type from every question object in the array.
+
+    Walks the array tracking brace depth so it only reads keys that sit
+    directly inside a question object (depth 1), ignoring keys inside nested
+    option objects like {url, alt}. Recognizes ', ", and ` strings, so it
+    handles template literals that json5 cannot.
+    """
+    results = []
+    current = {}
+    depth = 0
+    i = 0
+    n = len(array_text)
+    while i < n:
+        c = array_text[i]
+        if c in "'\"`":                       # skip any string we're not targeting
+            _, i = read_js_string(array_text, i)
+            continue
+        if c == "{":
+            depth += 1
+            if depth == 1:
+                current = {}
+            i += 1
+            continue
+        if c == "}":
+            if depth == 1 and current.get("text"):
+                results.append(current)
+            depth -= 1
+            i += 1
+            continue
+        # Only look for keys directly inside a question object.
+        if depth == 1 and (c.isalpha() or c == "_"):
+            m = re.match(r"([A-Za-z_]\w*)\s*:", array_text[i:])
+            if m:
+                key = m.group(1)
+                j = i + m.end()
+                while j < n and array_text[j] in " \t\r\n":   # skip space before value
+                    j += 1
+                if key in ("id", "text", "type") and j < n and array_text[j] in "'\"`":
+                    value, j = read_js_string(array_text, j)
+                    current[key] = value
+                i = j
+                continue
+        i += 1
+    return results
 
 
 def clean_text(raw):
@@ -107,7 +195,7 @@ def main():
             print(f"  skipped (no question array): {path.name}")
             continue
 
-        questions = json5.loads(array_literal)   # list of dicts, faithful to the JS
+        questions = parse_questions(array_literal)   # list of dicts: id, text, type
         test_id = extract_test_id(source)
 
         kept = 0
