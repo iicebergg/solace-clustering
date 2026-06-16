@@ -25,6 +25,7 @@ Note: the FIRST run downloads the model (~90 MB), so you need internet that once
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap, BoundaryNorm
 from sentence_transformers import SentenceTransformer
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
@@ -98,13 +99,31 @@ def main():
     ).fit_transform(reduced)
     df["tsne_x"], df["tsne_y"] = coords[:, 0], coords[:, 1]
 
+    # A hand-picked set of distinct, white-background-friendly colors with no
+    # light/dark twins. We use exactly as many as there are clusters.
+    distinct_colors = [
+        "#e6194B", "#3cb44b", "#4363d8", "#f58231", "#911eb4",
+        "#008080", "#f032e6", "#9A6324", "#808000", "#000075",
+        "#800000", "#e6b800", "#2f4f4f", "#ff6f91", "#5d8aa8",
+        "#7f7f7f", "#17becf", "#bcbd22", "#393b79", "#637939",
+    ]
+    if k <= len(distinct_colors):
+        cmap = ListedColormap(distinct_colors[:k])   # exactly k colors, one per cluster
+    else:
+        cmap = plt.get_cmap("tab20").resampled(k)    # fallback if you ever exceed the list
+    # BoundaryNorm pins each integer cluster to one solid color band (no gradient).
+    norm = BoundaryNorm(range(k + 1), cmap.N)
+
     plt.figure(figsize=(12, 9))
     scatter = plt.scatter(coords[:, 0], coords[:, 1], c=df["cluster"],
-                          cmap="tab20", s=14, alpha=0.8)
+                          cmap=cmap, norm=norm, s=14, alpha=0.85)
     plt.title(f"SOLace questions grouped into {k} clusters (SBERT + t-SNE)")
     plt.xlabel("t-SNE dimension 1")
     plt.ylabel("t-SNE dimension 2")
-    plt.colorbar(scatter, label="cluster number")
+    # Center each tick on its color band so the numbers line up with the colors.
+    cbar = plt.colorbar(scatter, ticks=[i + 0.5 for i in range(k)])
+    cbar.set_ticklabels(range(k))
+    cbar.set_label("cluster number")
     plt.tight_layout()
     plt.savefig("clusters_plot.png", dpi=150)
     print("Saved clusters_plot.png")
