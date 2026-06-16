@@ -102,9 +102,9 @@ def main():
     # A hand-picked set of distinct, white-background-friendly colors with no
     # light/dark twins. We use exactly as many as there are clusters.
     distinct_colors = [
-        "#e6194B", "#3cb44b", "#4363d8", "#f58231", "#911eb4",
-        "#008080", "#f032e6", "#9A6324", "#808000", "#000075",
-        "#800000", "#e6b800", "#2f4f4f", "#ff6f91", "#5d8aa8",
+        "#e73434", "#f58134", "#fed418", "#5dce41", "#0ec393",
+        "#1EDCDC", "#3d35d5", "#9A3FC4", "#f598ae", "#DD51AC",
+        "#6E4725", "#797874", "#373735", "#2f4f4f", "#5d8aa8",
         "#7f7f7f", "#17becf", "#bcbd22", "#393b79", "#637939",
     ]
     if k <= len(distinct_colors):
