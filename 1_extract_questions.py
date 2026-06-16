@@ -24,10 +24,11 @@ from pathlib import Path
 import json5  # parses JavaScript-style object literals; install with `uv add json5`
 
 # ----------------------------------------------------------------------
-# SETTINGS  -  edit these two lines if your paths differ
+# SETTINGS  -  set SUBJECT, then run. One subject per run.
 # ----------------------------------------------------------------------
-JS_FOLDER = Path("./js_files")   # put your ~40 .js files in this folder
-OUTPUT_DIR = Path(".")           # where questions.csv / questions.json land
+SUBJECT = "reading"                       # "math", "reading", or "science"
+JS_FOLDER = Path(f"./js_{SUBJECT}")    # this run reads from ./js_math, ./js_reading, etc.
+OUTPUT_DIR = Path(".")                 # output files are named with the subject prefix
 # ----------------------------------------------------------------------
 
 
@@ -126,7 +127,7 @@ def main():
         print(f"  {path.name}: {kept} questions")
 
     # Write the spreadsheet-friendly CSV
-    csv_path = OUTPUT_DIR / "questions.csv"
+    csv_path = OUTPUT_DIR / f"{SUBJECT}_questions.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f, fieldnames=["source_file", "test_id", "qid", "type", "clean_text", "raw_text"]
@@ -135,13 +136,13 @@ def main():
         writer.writerows(rows)
 
     # Write the JSON copy (handy for any later scripting)
-    json_path = OUTPUT_DIR / "questions.json"
+    json_path = OUTPUT_DIR / f"{SUBJECT}_questions.json"
     json_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print(f"\nDone. {len(rows)} questions written to:")
     print(f"  {csv_path.resolve()}")
     print(f"  {json_path.resolve()}")
-    print("\nOpen questions.csv and skim the clean_text column before running step 2.")
+    print(f"\nOpen {csv_path.name} and skim the clean_text column before running step 2.")
 
 
 if __name__ == "__main__":

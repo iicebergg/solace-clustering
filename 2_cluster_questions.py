@@ -36,7 +36,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # ----------------------------------------------------------------------
 # SETTINGS  -  the knobs you might want to turn
 # ----------------------------------------------------------------------
-INPUT_CSV   = "questions.csv"          # produced by step 1
+INPUT_CSV   = None    # leave None to use the SUBJECT below; or hard-code a filename.
+SUBJECT     = "reading"  # "math", "reading", or "science" -- must match step 1.
 MODEL_NAME  = "all-MiniLM-L6-v2"       # fast, solid default. Swap to
                                        # "all-mpnet-base-v2" for higher quality
                                        # at ~3x the time if clusters look muddy.
@@ -49,11 +50,15 @@ RANDOM_SEED = 42      # fixes randomness so reruns look identical.
 
 
 def main():
+    # Decide which subject's files to read and how to name the outputs.
+    input_csv = INPUT_CSV if INPUT_CSV else f"{SUBJECT}_questions.csv"
+    prefix = SUBJECT  # every output file starts with this, e.g. reading_clusters_plot.png
+
     # --- Load the questions from step 1 -------------------------------
-    df = pd.read_csv(INPUT_CSV).fillna("")
+    df = pd.read_csv(input_csv).fillna("")
     texts = df["clean_text"].tolist()
     n = len(texts)
-    print(f"Loaded {n} questions from {INPUT_CSV}")
+    print(f"Loaded {n} questions from {input_csv}")
 
     # --- Step 1: SBERT embeddings -------------------------------------
     print(f"Embedding with {MODEL_NAME} (first run downloads the model)...")
@@ -102,9 +107,9 @@ def main():
     # A hand-picked set of distinct, white-background-friendly colors with no
     # light/dark twins. We use exactly as many as there are clusters.
     distinct_colors = [
-        "#e73434", "#f58134", "#fed418", "#5dce41", "#0ec393",
-        "#1EDCDC", "#3d35d5", "#9A3FC4", "#f598ae", "#DD51AC",
-        "#6E4725", "#797874", "#373735", "#2f4f4f", "#5d8aa8",
+        "#e6194B", "#3cb44b", "#4363d8", "#f58231", "#911eb4",
+        "#008080", "#f032e6", "#9A6324", "#808000", "#000075",
+        "#800000", "#e6b800", "#2f4f4f", "#ff6f91", "#5d8aa8",
         "#7f7f7f", "#17becf", "#bcbd22", "#393b79", "#637939",
     ]
     if k <= len(distinct_colors):
@@ -117,7 +122,7 @@ def main():
     plt.figure(figsize=(12, 9))
     scatter = plt.scatter(coords[:, 0], coords[:, 1], c=df["cluster"],
                           cmap=cmap, norm=norm, s=14, alpha=0.85)
-    plt.title(f"SOLace questions grouped into {k} clusters (SBERT + t-SNE)")
+    plt.title(f"SOLace {SUBJECT} questions grouped into {k} clusters (SBERT + t-SNE)")
     plt.xlabel("t-SNE dimension 1")
     plt.ylabel("t-SNE dimension 2")
     # Center each tick on its color band so the numbers line up with the colors.
@@ -125,8 +130,8 @@ def main():
     cbar.set_ticklabels(range(k))
     cbar.set_label("cluster number")
     plt.tight_layout()
-    plt.savefig("clusters_plot.png", dpi=150)
-    print("Saved clusters_plot.png")
+    plt.savefig(f"{prefix}_clusters_plot.png", dpi=150)
+    print(f"Saved {prefix}_clusters_plot.png")
 
     # --- Step 4: name the clusters by their distinctive words ---------
     # token_pattern keeps only real words of 3+ letters, so stray math symbols
@@ -139,19 +144,31 @@ def main():
     vocab = np.array(vectorizer.get_feature_names_out())
 
     print("\nTop words per cluster (use these to name your categories):")
+    keyword_rows = []
     for c in range(k):
         member_rows = np.where(df["cluster"].values == c)[0]
         mean_tfidf = tfidf[member_rows].mean(axis=0).A1   # average word weight in this cluster
         top_words = vocab[mean_tfidf.argsort()[::-1][:8]]
-        print(f"  cluster {c:2d}  ({len(member_rows):4d} questions):  {', '.join(top_words)}")
+        keywords = ", ".join(top_words)
+        print(f"  cluster {c:2d}  ({len(member_rows):4d} questions):  {keywords}")
+        keyword_rows.append({
+            "cluster": c,
+            "num_questions": len(member_rows),
+            "top_keywords": keywords,
+            "category_name": "",   # blank column for you to fill in your category names
+        })
+
+    # Save the keyword summary so it survives after you close the Terminal.
+    pd.DataFrame(keyword_rows).to_csv(f"{prefix}_cluster_keywords.csv", index=False)
+    print(f"\nSaved {prefix}_cluster_keywords.csv")
 
     # --- Save the labeled table ---------------------------------------
     out_cols = ["source_file", "test_id", "qid", "type", "cluster",
                 "tsne_x", "tsne_y", "clean_text"]
-    df[out_cols].to_csv("questions_with_clusters.csv", index=False)
-    print("\nSaved questions_with_clusters.csv")
-    print("Open clusters_plot.png and the CSV together, then rename each cluster "
-          "number into a real category based on its top words.")
+    df[out_cols].to_csv(f"{prefix}_questions_with_clusters.csv", index=False)
+    print(f"\nSaved {prefix}_questions_with_clusters.csv")
+    print(f"Open {prefix}_clusters_plot.png and {prefix}_cluster_keywords.csv together, "
+          "then name each cluster based on its top words.")
 
 
 if __name__ == "__main__":
