@@ -173,20 +173,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# ----------------------------------------------------------------------
-# ALTERNATIVE: let the data decide the number of categories (HDBSCAN)
-# ----------------------------------------------------------------------
-# KMeans forces every question into one of k groups and you pick k. If you'd
-# rather have the algorithm discover the natural groups on its own (and flag
-# odd one-off questions as "noise" instead of forcing them somewhere), swap the
-# clustering step for HDBSCAN:
-#
-#   uv add hdbscan
-#
-#   import hdbscan
-#   clusterer = hdbscan.HDBSCAN(min_cluster_size=15)   # raise for fewer, broader groups
-#   df["cluster"] = clusterer.fit_predict(reduced)      # questions labeled -1 are "noise"
-#
-# Everything else (t-SNE, keyword naming, CSV) works unchanged. Try both and
-# compare which grouping matches what Dr. Lin is looking for.
