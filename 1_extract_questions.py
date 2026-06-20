@@ -1,6 +1,4 @@
 """
-STEP 1 OF 2  -  Extract and clean every SOLace question.
-
 What this does:
   - Looks at every .js file inside the folder you point it at.
   - Finds the question array in each file (the "...Questions = [ ... ]" block).
@@ -11,9 +9,6 @@ What this does:
     left is clean, readable words for the model to work with.
   - Writes everything to <subject>_questions.csv (open it in Numbers/Excel to
     inspect) and <subject>_questions.json.
-
-Run it with: uv run python 1_extract_questions.py
-No extra libraries needed for this step (the scanner is plain Python).
 """
 
 import re
@@ -22,13 +17,10 @@ import json
 import html
 from pathlib import Path
 
-# ----------------------------------------------------------------------
 # SETTINGS  -  set SUBJECT, then run. One subject per run.
-# ----------------------------------------------------------------------
 SUBJECT = "science"                       # "math", "reading", or "science"
 JS_FOLDER = Path(f"./js_{SUBJECT}")    # this run reads from ./js_math, ./js_reading, etc.
 OUTPUT_DIR = Path(".")                 # output files are named with the subject prefix
-# ----------------------------------------------------------------------
 
 
 def find_question_array(source_text):
@@ -162,11 +154,6 @@ def parse_questions(array_text):
 
 
 def clean_text(raw):
-    """Turn one question's markup-laden text into plain readable words.
-
-    Example in:  'Which is a factor of <math><mi>x</mi>...</math>?'
-    Example out: 'Which is a factor of x 2 - x - 6 ?'
-    """
     t = re.sub(r"<br\s*/?>", " ", raw, flags=re.IGNORECASE)  # line breaks -> space
     t = re.sub(r"<[^>]+>", " ", t)                           # drop every HTML/MathML tag
     t = html.unescape(t)                                     # &lt; -> < , &amp; -> & , etc.
@@ -223,7 +210,7 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
 
-    # Write the JSON copy (handy for any later scripting)
+    # Write the JSON copy
     json_path = OUTPUT_DIR / f"{SUBJECT}_questions.json"
     json_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
 

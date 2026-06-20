@@ -1,21 +1,14 @@
 """
-STEP 3 (revised)  -  Average performance per cluster, from the single responses CSV.
-
 Reads one file, question_responses.csv, which already carries a test_id column
 (the attempt-to-test lookup you did in Google Sheets). Rows whose test_id reads
 "no match" are voided attempts that were rushed, so they are dropped before any
 averaging. Every remaining response is matched to its cluster from the step-2
 files on (test_id, question_id == qid), then averaged per cluster.
-
-Run with: uv run python 3_cluster_performance.py
-Needs: pandas
 """
 
 import pandas as pd
 
-# ----------------------------------------------------------------------
 # SETTINGS
-# ----------------------------------------------------------------------
 RESPONSES_CSV = "question_responses.csv"
 SUBJECTS      = ["math", "reading", "science"]   # each needs <subject>_questions_with_clusters.csv
 OUTPUT_CSV    = "cluster_performance.csv"
@@ -23,7 +16,7 @@ OUTPUT_CSV    = "cluster_performance.csv"
 
 
 def main():
-    # ---- STEP 1: stack the step-2 cluster files into one reference table ----
+    # STEP 1: stack the step-2 cluster files into one reference table
     # Each file is one subject. Tagging rows with their subject keeps the
     # per-subject cluster numbers from colliding (math 3 vs reading 3).
     cluster_frames = []
@@ -37,17 +30,17 @@ def main():
     clusters["qid"] = pd.to_numeric(clusters["qid"], errors="coerce").astype("Int64")
     clusters["test_id"] = clusters["test_id"].astype(str).str.strip()
 
-    # ---- STEP 2: load the responses CSV and drop voided ("no match") tests ----
+    # STEP 2: load the responses CSV and drop voided ("no match") tests
     responses = pd.read_csv(RESPONSES_CSV)
     responses["test_id"] = responses["test_id"].astype(str).str.strip()
     voided = responses["test_id"].str.lower() == "no match"
     print(f"Voided (rushed) responses dropped: {voided.sum()} of {len(responses)}")
     responses = responses[~voided].copy()
 
-    # ---- STEP 3: align the join-key type (question_number is not used) ----
+    # STEP 3: align the join-key type (question_number is not used)
     responses["question_id"] = pd.to_numeric(responses["question_id"], errors="coerce").astype("Int64")
 
-    # ---- STEP 4: match each response to its cluster on (test_id, question_id == qid) ----
+    # STEP 4: match each response to its cluster on (test_id, question_id == qid)
     # The per-question match is question_id == qid, exactly as you said. test_id
     # stays in the key alongside it because question_id restarts at 1 in every
     # test, so question 5 of one test must not borrow question 5 of another.
@@ -65,8 +58,8 @@ def main():
     all_questions = set(zip(clusters["test_id"], clusters["qid"]))
     print(f"Cluster questions that drew zero responses: {len(all_questions - answered)}")
 
-    # ---- STEP 5: average performance per cluster ----
-    # was_correct is True/False, so its mean is the fraction answered correctly.
+    # STEP 5: average performance per cluster
+    # was_correct is True/False, so its mean is the fraction answered correctly
     summary = (
         graded.groupby(["subject", "cluster_label"])
         .agg(

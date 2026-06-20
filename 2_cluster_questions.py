@@ -1,6 +1,4 @@
 """
-STEP 2 OF 2  -  Turn questions into categories.
-
 Pipeline (this is the order things happen):
   1. SBERT  reads each question and turns it into a 384-number vector that
      captures meaning. Similar wording -> nearby vectors.
@@ -29,31 +27,30 @@ from sklearn.metrics import silhouette_score
 from sklearn.manifold import TSNE
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# SETTINGS  -  the knobs you might want to turn
+# SETTINGS
 INPUT_CSV   = None    # leave None to use the SUBJECT below; or hard-code a filename.
-SUBJECT     = "reading"  # "math", "reading", or "science" -- must match step 1.
+SUBJECT     = "math"  # "math", "reading", or "science" -- must match step 1.
 MODEL_NAME  = "all-mpnet-base-v2"       # higher quality model so clusters are clear
 N_CLUSTERS  = None    # None = let the script suggest a number automatically.
                       # Set an integer (e.g. 12) to force that many categories.
 MIN_K, MAX_K = 6, 20  # range searched when N_CLUSTERS is None.
-PERPLEXITY  = 30      # t-SNE smoothing. 30 is the usual default for ~1k points.
-RANDOM_SEED = 42      # fixes randomness so reruns look identical.
+PERPLEXITY  = 30      # t-SNE smoothing
+RANDOM_SEED = 42      # fixes randomness
 # ----------------------------------------------------------------------
 
 
 def main():
-    # Decide which subject's files to read and how to name the outputs.
     input_csv = INPUT_CSV if INPUT_CSV else f"{SUBJECT}_questions.csv"
-    prefix = SUBJECT  # every output file starts with this, e.g. reading_clusters_plot.png
+    prefix = SUBJECT
 
-    # --- Load the questions from step 1 -------------------------------
+    # Load the questions from step 1
     df = pd.read_csv(input_csv).fillna("")
     texts = df["clean_text"].tolist()
     n = len(texts)
     print(f"Loaded {n} questions from {input_csv}")
 
-    # --- Step 1: SBERT embeddings -------------------------------------
-    print(f"Embedding with {MODEL_NAME} (first run downloads the model)...")
+    # Step 1: SBERT embeddings
+    print(f"Embedding with {MODEL_NAME}...")
     model = SentenceTransformer(MODEL_NAME)
     # normalize_embeddings makes distance behave like cosine similarity,
     # which is what you want for grouping by meaning.
@@ -63,7 +60,7 @@ def main():
     n_components = min(50, n - 1)
     reduced = PCA(n_components=n_components, random_state=RANDOM_SEED).fit_transform(embeddings)
 
-    # --- Step 2: choose how many clusters, then cluster ---------------
+    # Step 2: choose how many clusters, then cluster
     if N_CLUSTERS is None:
         print("\nSearching for a good number of clusters (higher score = cleaner split):")
         best_k, best_score = None, -1.0
@@ -83,7 +80,7 @@ def main():
     kmeans = KMeans(n_clusters=k, random_state=RANDOM_SEED, n_init=10)
     df["cluster"] = kmeans.fit_predict(reduced)
 
-    # --- Step 3: t-SNE for the picture --------------------------------
+    # Step 3: t-SNE for the picture
     print("Running t-SNE for the 2D plot...")
     safe_perplexity = min(PERPLEXITY, (n - 1) // 3)   # t-SNE needs perplexity < n
     coords = TSNE(
@@ -123,7 +120,7 @@ def main():
     plt.savefig(f"{prefix}_clusters_plot.png", dpi=150)
     print(f"Saved {prefix}_clusters_plot.png")
 
-    # --- Step 4: name the clusters by their distinctive words ---------
+    # Step 4: name the clusters by their distinctive words
     # token_pattern keeps only real words of 3+ letters, so stray math symbols
     # and single variables (x, y, 2) don't crowd out the meaningful terms.
     vectorizer = TfidfVectorizer(
@@ -152,7 +149,7 @@ def main():
     pd.DataFrame(keyword_rows).to_csv(f"{prefix}_cluster_keywords.csv", index=False)
     print(f"\nSaved {prefix}_cluster_keywords.csv")
 
-    # --- Save the labeled table ---------------------------------------
+    # Save the labeled table
     out_cols = ["source_file", "test_id", "qid", "type", "cluster",
                 "tsne_x", "tsne_y", "clean_text"]
     df[out_cols].to_csv(f"{prefix}_questions_with_clusters.csv", index=False)
