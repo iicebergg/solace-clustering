@@ -16,10 +16,6 @@ Outputs:
   - questions_with_clusters.csv   every question + its cluster number + plot coords
   - clusters_plot.png             the t-SNE scatter, colored by cluster
   - printed keyword list          to help you name each cluster
-
-Run it with:    uv run python 2_cluster_questions.py
-One-time setup: uv add sentence-transformers scikit-learn matplotlib pandas
-Note: the FIRST run downloads the model (~90 MB), so you need internet that once.
 """
 
 import numpy as np
@@ -33,14 +29,10 @@ from sklearn.metrics import silhouette_score
 from sklearn.manifold import TSNE
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# ----------------------------------------------------------------------
 # SETTINGS  -  the knobs you might want to turn
-# ----------------------------------------------------------------------
 INPUT_CSV   = None    # leave None to use the SUBJECT below; or hard-code a filename.
-SUBJECT     = "science"  # "math", "reading", or "science" -- must match step 1.
-MODEL_NAME  = "all-MiniLM-L6-v2"       # fast, solid default. Swap to
-                                       # "all-mpnet-base-v2" for higher quality
-                                       # at ~3x the time if clusters look muddy.
+SUBJECT     = "reading"  # "math", "reading", or "science" -- must match step 1.
+MODEL_NAME  = "all-mpnet-base-v2"       # higher quality model so clusters are clear
 N_CLUSTERS  = None    # None = let the script suggest a number automatically.
                       # Set an integer (e.g. 12) to force that many categories.
 MIN_K, MAX_K = 6, 20  # range searched when N_CLUSTERS is None.
@@ -67,8 +59,7 @@ def main():
     # which is what you want for grouping by meaning.
     embeddings = model.encode(texts, show_progress_bar=True, normalize_embeddings=True)
 
-    # Compress to 50 dimensions first. This speeds up the next two steps and
-    # removes noise, without losing the structure that matters.
+    # Compress to 50 dimensions first. (ASK: is this appropriate?)
     n_components = min(50, n - 1)
     reduced = PCA(n_components=n_components, random_state=RANDOM_SEED).fit_transform(embeddings)
 
@@ -104,8 +95,7 @@ def main():
     ).fit_transform(reduced)
     df["tsne_x"], df["tsne_y"] = coords[:, 0], coords[:, 1]
 
-    # A hand-picked set of distinct, white-background-friendly colors with no
-    # light/dark twins. We use exactly as many as there are clusters.
+    # Exactly as many colors as there are clusters will be used
     distinct_colors = [
         "#e6194B", "#3cb44b", "#4363d8", "#f58231", "#911eb4",
         "#008080", "#f032e6", "#9A6324", "#808000", "#000075",
