@@ -31,7 +31,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 INPUT_CSV   = None    # leave None to use the SUBJECT below; or hard-code a filename.
 SUBJECT     = "math"  # "math", "reading", or "science" -- must match step 1.
 MODEL_NAME  = "all-mpnet-base-v2"       # higher quality model so clusters are clear
-N_CLUSTERS  = None    # None = let the script suggest a number automatically.
+N_CLUSTERS  = 5    # None = let the script suggest a number automatically.
                       # Set an integer (e.g. 12) to force that many categories.
 MIN_K, MAX_K = 6, 20  # range searched when N_CLUSTERS is None.
 PERPLEXITY  = 30      # t-SNE smoothing
